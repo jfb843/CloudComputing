@@ -51,8 +51,8 @@ for ((i=0;i<${#large_ds[@]};i++)); do
 done 
 
 # combine all sizes into one array
-all_ds=( ${large_ds[@]} ${medium_ds[@]} ${small_ds[@]} )
-all_ds_f=( ${large_ds_f[@]} ${medium_ds_f[@]} ${small_ds_f[@]} )
+all_ds=( ${medium_ds[@]} ${small_ds[@]} )
+all_ds_f=( ${medium_ds_f[@]} ${small_ds_f[@]} )
 
 # iterate and download all datasets medium and small
 for ((i=0;i<${#all_ds[@]};i++)); do
