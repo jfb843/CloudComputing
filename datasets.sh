@@ -54,3 +54,5 @@ done
 # unzip and remove all .zip files
 unzip \*.zip
 rm *.zip
+
+chmod u+rw *.csv
