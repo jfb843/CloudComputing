@@ -1,0 +1,76 @@
+2005_2005_data.csv: 
+real    5m42.333s
+user    4m22.164s
+sys     0m7.808s
+2015.csv: 
+real    0m0.110s
+user    0m0.000s
+sys     0m0.000s
+anime_cleaned.csv: 
+real    0m0.197s
+user    0m0.012s
+sys     0m0.008s
+anime_filtered.csv: 
+real    0m0.314s
+user    0m0.036s
+sys     0m0.012s
+AnimeList.csv: 
+real    0m0.186s
+user    0m0.036s
+sys     0m0.008s
+animelists_cleaned.csv: 
+real    3m26.880s
+user    2m36.924s
+sys     0m5.204s
+animelists_filtered.csv: 
+real    4m11.914s
+user    3m29.956s
+sys     0m5.888s
+athlete_events.csv: 
+real    0m1.994s
+user    0m0.984s
+sys     0m0.048s
+creditcard.csv: 
+real    0m2.684s
+user    0m0.600s
+sys     0m0.152s
+data.csv: 
+real    0m0.296s
+user    0m0.040s
+sys     0m0.008s
+googleplaystore.csv: 
+real    0m0.132s
+user    0m0.020s
+sys     0m0.000s
+loan.csv: 
+real    0m36.885s
+user    0m24.320s
+sys     0m1.196s
+movies_metadata.csv: 
+real    0m0.948s
+user    0m0.428s
+sys     0m0.048s
+Reviews.csv: 
+real    0m6.488s
+user    0m3.576s
+sys     0m0.348s
+UserAnimeList.csv: 
+real    6m23.125s
+user    4m17.308s
+sys     0m9.284s
+UserList.csv: 
+real    0m1.526s
+user    0m1.144s
+sys     0m0.044s
+users_cleaned.csv: 
+real    0m0.663s
+user    0m0.520s
+sys     0m0.020s
+users_filtered.csv: 
+real    0m0.841s
+user    0m0.384s
+sys     0m0.020s
+winemag-data-130k-v2.csv: 
+real    0m1.178s
+user    0m0.492s
+sys     0m0.056s
