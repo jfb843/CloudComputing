@@ -4,9 +4,9 @@
 
 # define datasets and the desired csv files
 large_ds=(
-)
-
-large_ds_f=(
+	"wendykan/lending-club-loan-data"
+	"azathoth42/myanimelist"
+	"cdc/mortality"
 )
 
 medium_ds=(
@@ -41,11 +41,20 @@ small_ds_f=(
 	"player_data.csv"
 )
 
+# combine all larges into one array
+all_ds=( ${large_ds[@]} )
+
+# iterate and download all datasets large
+for ((i=0;i<${#large_ds[@]};i++)); do
+	echo "downloading ${large_ds[i]}..."
+    kaggle datasets download "${large_ds[i]}"
+done 
+
 # combine all sizes into one array
 all_ds=( ${large_ds[@]} ${medium_ds[@]} ${small_ds[@]} )
 all_ds_f=( ${large_ds_f[@]} ${medium_ds_f[@]} ${small_ds_f[@]} )
 
-# iterate and download all datasets
+# iterate and download all datasets medium and small
 for ((i=0;i<${#all_ds[@]};i++)); do
 	echo "downloading ${all_ds[i]} - ${all_ds_f[i]}..."
     kaggle datasets download "${all_ds[i]}" -f "${all_ds_f[i]}"
