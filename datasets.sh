@@ -37,7 +37,7 @@ small_ds_f=(
 	"googleplaystore.csv"
 	"data.csv"
 	"2015.csv"
-	"Womens%20Clothing%20E-Commerce%20Reviews.csv"
+	"Womens%20Clothing%20E-Commerce%20Reviews.csv"  # need to download manually :/
 	"player_data.csv"
 )
 
@@ -50,3 +50,7 @@ for ((i=0;i<${#all_ds[@]};i++)); do
 	echo "downloading ${all_ds[i]} - ${all_ds_f[i]}..."
     kaggle datasets download "${all_ds[i]}" -f "${all_ds_f[i]}"
 done 
+
+# unzip and remove all .zip files
+unzip \*.zip
+rm *.zip
