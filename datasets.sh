@@ -1,13 +1,43 @@
 #!/usr/bin/env bash
 # Downloads all datasets from Kaggle
 
-
 # define datasets and the desired csv files
 large_ds=(
 	"wendykan/lending-club-loan-data"
 	"azathoth42/myanimelist"
 	"cdc/mortality"
 )
+
+large_ds_f=(
+	"loan.csv"
+	"2005_data.csv"
+	"2006_data.csv"
+	"2007_data.csv"
+	"2008_data.csv"
+	"2009_data.csv"
+	"2010_data.csv"
+	"2011_data.csv"
+	"2012_data.csv"
+	"2013_data.csv"
+	"2014_data.csv"
+	"2015_data.csv"
+)
+
+# iterate and download all datasets large
+for ((i=0;i<${#large_ds[@]};i++)); do
+	if [ "$i" -eq 0 ]; then
+		echo "downloading ${large_ds[i]} - ${large_ds_f[i]}..."
+    	kaggle datasets download "${large_ds[i]}" -f "${large_ds_f[i]}"
+    elif [ "$i" -eq 1 ]; then
+    	echo "downloading ${large_ds[i]}..."
+    	kaggle datasets download "${large_ds[i]}"
+    else
+    	for ((j=1;j<${#large_ds_f[@]};j++)); do
+	    	echo "downloading ${large_ds[i]} - ${large_ds_f[j]}..."
+	    	kaggle datasets download "${large_ds[i]}" -f "${large_ds_f[j]}"
+	    done
+    fi
+done
 
 medium_ds=(
 	"snap/amazon-fine-food-reviews"
@@ -40,15 +70,6 @@ small_ds_f=(
 	"Womens%20Clothing%20E-Commerce%20Reviews.csv"  # need to download manually :/
 	"player_data.csv"
 )
-
-# combine all larges into one array
-all_ds=( ${large_ds[@]} )
-
-# iterate and download all datasets large
-for ((i=0;i<${#large_ds[@]};i++)); do
-	echo "downloading ${large_ds[i]}..."
-    kaggle datasets download "${large_ds[i]}"
-done 
 
 # combine all sizes into one array
 all_ds=( ${medium_ds[@]} ${small_ds[@]} )
