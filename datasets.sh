@@ -1,6 +1,8 @@
 #!/usr/bin/env bash
 # Downloads all datasets from Kaggle
 
+mkdir "data/"
+
 # define datasets and the desired csv files
 large_ds=(
     "wendykan/lending-club-loan-data"
@@ -84,5 +86,6 @@ done
 # unzip and remove all .zip files
 unzip \*.zip
 rm *.zip
+mv *.csv "data/"
 
 chmod u+rw *.csv
