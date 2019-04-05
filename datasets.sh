@@ -134,4 +134,4 @@ unzip \*.zip
 rm *.zip
 mv *.csv "data/"
 
-chmod u+rw *.csv
+chmod u+rw "data/"*.csv
