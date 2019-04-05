@@ -6,12 +6,32 @@ mkdir "data/"
 # define datasets and the desired csv files
 large_ds=(
     "wendykan/lending-club-loan-data"
+    "city-of-seattle/seattle-checkouts-by-title"
+    "kmader/skin-cancer-mnist-ham10000"
+    "city-of-seattle/seattle-library-collection-inventory"
+    "noaa/noaa-global-surface-summary-of-the-day"
+    "kmader/crowds-cure-cancer-2017"
+    "mozillaorg/common-voice"
+    "hateful-users-on-twitter"
+    "openaddresses/openaddresses-europe"
+    "residentmario/iowa-liquor-sales"
+    "seattle-public-library/seattle-library-checkout-records"
     "azathoth42/myanimelist"
     "cdc/mortality"
 )
 
 large_ds_f=(
     "loan.csv"
+    "checkouts-by-title.csv"
+    "HAM10000_metadata.csv"
+    "library-collection-inventory.csv"
+    "isd-history.csv"
+    "CrowdsCureCancer2017Annotations.csv"
+    "cv-invalid.csv"
+    "users_neighborhood_anon.csv"
+    "austria.csv"
+    "Iowa_Liquor_Sales.csv"
+    "Checkouts_By_Title_Data_Lens_2005.csv"
     "2005_data.csv"
     "2006_data.csv"
     "2007_data.csv"
@@ -27,14 +47,14 @@ large_ds_f=(
 
 # iterate and download all datasets large
 for ((i=0;i<${#large_ds[@]};i++)); do
-    if [ "$i" -eq 0 ]; then
+    if [ "$i" -lt 11 ]; then
         echo "downloading ${large_ds[i]} - ${large_ds_f[i]}..."
         kaggle datasets download "${large_ds[i]}" -f "${large_ds_f[i]}"
-    elif [ "$i" -eq 1 ]; then
+    elif [ "$i" -eq 11 ]; then
         echo "downloading all ${large_ds[i]}..."
         kaggle datasets download "${large_ds[i]}"
     else
-        for ((j=1;j<${#large_ds_f[@]};j++)); do
+        for ((j=11;j<${#large_ds_f[@]};j++)); do ##### CHANGE THIS!!!!!!
             echo "downloading ${large_ds[i]} - ${large_ds_f[j]}..."
             kaggle datasets download "${large_ds[i]}" -f "${large_ds_f[j]}"
         done
