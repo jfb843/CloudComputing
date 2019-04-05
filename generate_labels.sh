@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-files=($(ls *.csv))
+files=($(ls "data/"*.csv))
 
 rm "time_labels.log"
 
