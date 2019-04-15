@@ -18,6 +18,7 @@ for i in range(len(files)):
 		# df2 = pd.read_csv("heart.csv")
 		df1 = pd.read_csv(files[i][0])
 		df2 = pd.read_csv(files[j][0])
+		print(files[i][1], files[j][1])
 
 		# combine by COLUMN
 		result = pd.concat([df1, df2], axis=1)
