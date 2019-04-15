@@ -5,7 +5,7 @@
 mkdir "compiled_data/"
 
 # concat the mortality files
-find ~/CloudComputing/data -type f -name '20*_data.csv' -exec cat {} + >> ~CloudComputing/data/20x_data-merged.csv
+find ~/CloudComputing/data -type f -name '20*_data.csv' -exec cat {} + > ~CloudComputing/data/20x_data-merged.csv
 
 all_files=(~/CloudComputing/data/*.csv)
 echo "Number of files ${#all_files[@]}..."
