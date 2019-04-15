@@ -6,7 +6,8 @@ mkdir -p "compiled_data/"
 echo "Created compiled_data folder..."
 
 # concat the mortality files
-find ~/CloudComputing/data -type f -name '20*_data.csv' -exec cat {} + > ~CloudComputing/data/20x_data-merged.csv
+find ~/CloudComputing/data -type f -name '20*_data.csv' -exec cat {} + >> ~CloudComputing/compiled_data/mortality-merged.csv
+echo "Concat mortality datasets..."
 
 all_files=(~/CloudComputing/data/*.csv)
 echo "Number of files ${#all_files[@]}..."
@@ -15,16 +16,20 @@ echo "Number of files ${#all_files[@]}..."
 
 for ((i=0;i<${#all_files[@]};i++)); do
 	echo "Concatenating files to ${all_files[i]}..."
-	for ((j=$((i+1));j<${#all_files[@]};j++)); do
+	declare -i count=$((i + 1))
+	for ((j=$count;j<${#all_files[@]};j++)); do
 		# extract filenames for easy output file name
 		first_name=$(basename "${all_files[i]}" .csv)
 		second_name=$(basename "${all_files[j]}" .csv)
+		echo "${first_name} ${second_name}"
 
-		#join -t, ${all_files[i]} ${all_files[j]} > ~/CloudComputing/compiled_data/${first_name}-${second_name}.csv
-		paste -d, ${all_files[i]} ${all_files[j]} > ~/CloudComputing/compiled_data/${first_name}-${second_name}.csv
-		size=$(stat -c %s ~/CloudComputing/data/${first_name}-${second_name}.csv)
-		cols=$(awk '{print NF}' ~/CloudComputing/data/${first_name}-${second_name}.csv | sort -nu | tail -n 1)
-		rows=$(cat ~/CloudComputing/data/${first_name}-${second_name}.csv | wc -l)
-		echo "${cols} cols, ${rows}, rows"
+	#	join ${all_files[i]} ${all_files[j]} > ~/CloudComputing/compiled_data/${first_name}-${second_name}.csv
+		paste -d, ${all_files[i]} ${all_files[j]} > ~/CloudComputing/compiled_data/${first_name}-merged.csv
+		size=$(stat -c '%s' ~/CloudComputing/compiled_data/${first_name}-merged.csv)
+		cols=$(awk '{print NF}' ~/CloudComputing/compiled_data/${first_name}-merged.csv | sort -nu | tail -n 1)
+		rows=$(cat ~/CloudComputing/compiled_data/${first_name}-merged.csv | wc -l)
+		echo "${cols} cols, ${rows} rows, ${size} size"
+
+		mv ~/CloudComputing/compiled_data/${first_name}-merged.csv ~/CloudComputing/compiled_data/${first_name}-${second_name}.csv
 	done
 done
