@@ -29,12 +29,12 @@ done
 # concat the 20x_data files
 find ~/CloudComputing/data -type f -name '20*_data.csv' -exec cat {} + >> ~CloudComputing/data/20x_data-merged.csv
 
-# goal of 100 files
+# goal of 125 files
 num_files=$(find ~/CloudComputing/data -type f -name "*.csv" | wc -l)
 echo "${num_files}"
 
 # concat two random files
-while [ "${num_files}" -lt 100 ]; do
+while [ "${num_files}" -lt 125 ]; do
 	random=$(shuf -n 1 -e ~/CloudComputing/data/*.csv)
 	random_two=$(shuf -n 1 -e ~/CloudComputing/data/*.csv)
 	name=$(basename "${random}" .csv)
