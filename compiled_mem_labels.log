@@ -59,7 +59,6 @@
 -rw-r--r-- 1 jfb843 jfb843    1040085 Apr 15 21:46 compiled_data/player_data-3-small.csv
 -rw-r--r-- 1 jfb843 jfb843  601809388 Apr 15 21:55 compiled_data/Reviews-2-medium.csv
 -rw-r--r-- 1 jfb843 jfb843  601809388 Apr 15 21:46 compiled_data/Reviews-2-small.csv
--rw-r--r-- 1 jfb843 jfb843          0 Apr 16 18:00 compiled_data/sample.log
 -rw-r--r-- 1 jfb843 jfb843 9993905922 Apr 15 21:58 compiled_data/UserAnimeList-2-medium.csv
 -rw-r--r-- 1 jfb843 jfb843 9993905922 Apr 15 21:48 compiled_data/UserAnimeList-2-small.csv
 -rw-r--r-- 1 jfb843 jfb843  517757661 Apr 15 21:58 compiled_data/UserList-17-medium.csv
