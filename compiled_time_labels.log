@@ -1,0 +1,284 @@
+compiled_data/2005_data-2-medium.csv: 
+real	0m21.968s
+user	1m7.316s
+sys	0m1.696s
+compiled_data/2005_data-2-small.csv: 
+real	0m30.747s
+user	1m9.796s
+sys	0m1.260s
+compiled_data/2005_data-3-large.csv: 
+real	0m45.458s
+user	1m45.372s
+sys	0m2.096s
+compiled_data/2006_data-2-medium.csv: 
+real	0m29.421s
+user	1m9.412s
+sys	0m0.880s
+compiled_data/2006_data-2-small.csv: 
+real	0m29.268s
+user	1m7.608s
+sys	0m1.104s
+compiled_data/2006_data-3-large.csv: 
+real	0m45.861s
+user	1m48.428s
+sys	0m2.748s
+compiled_data/2007_data-2-medium.csv: 
+real	0m28.001s
+user	1m5.348s
+sys	0m0.928s
+compiled_data/2007_data-2-small.csv: 
+real	0m30.945s
+user	1m7.104s
+sys	0m1.308s
+compiled_data/2007_data-3-large.csv: 
+real	0m45.065s
+user	1m46.668s
+sys	0m2.292s
+compiled_data/2008_data-2-medium.csv: 
+real	0m29.799s
+user	1m9.552s
+sys	0m1.044s
+compiled_data/2008_data-2-small.csv: 
+real	0m30.495s
+user	1m11.268s
+sys	0m1.356s
+compiled_data/2008_data-3-large.csv: 
+real	0m46.891s
+user	1m48.592s
+sys	0m2.580s
+compiled_data/2009_data-2-medium.csv: 
+real	0m30.013s
+user	1m8.592s
+sys	0m1.128s
+compiled_data/2009_data-2-small.csv: 
+real	0m29.268s
+user	1m9.632s
+sys	0m1.056s
+compiled_data/2009_data-3-large.csv: 
+real	0m45.832s
+user	1m48.272s
+sys	0m1.728s
+compiled_data/2010_data-2-medium.csv: 
+real	0m30.522s
+user	1m9.508s
+sys	0m1.220s
+compiled_data/2010_data-2-small.csv: 
+real	0m31.538s
+user	1m13.764s
+sys	0m1.232s
+compiled_data/2010_data-3-large.csv: 
+real	0m47.155s
+user	1m49.376s
+sys	0m1.856s
+compiled_data/2011_data-2-medium.csv: 
+real	0m30.499s
+user	1m10.644s
+sys	0m1.160s
+compiled_data/2011_data-2-small.csv: 
+real	0m30.887s
+user	1m9.764s
+sys	0m1.136s
+compiled_data/2011_data-3-large.csv: 
+real	0m48.100s
+user	1m52.584s
+sys	0m1.924s
+compiled_data/2012_data-2-medium.csv: 
+real	0m32.306s
+user	1m11.520s
+sys	0m1.116s
+compiled_data/2012_data-2-small.csv: 
+real	0m32.168s
+user	1m13.808s
+sys	0m1.252s
+compiled_data/2012_data-3-large.csv: 
+real	0m48.629s
+user	1m59.552s
+sys	0m2.060s
+compiled_data/2013_data-2-medium.csv: 
+real	0m33.052s
+user	1m14.672s
+sys	0m1.312s
+compiled_data/2013_data-2-small.csv: 
+real	0m32.701s
+user	1m15.072s
+sys	0m1.200s
+compiled_data/2013_data-3-large.csv: 
+real	0m53.099s
+user	2m0.556s
+sys	0m3.720s
+compiled_data/2014_data-2-medium.csv: 
+real	0m31.799s
+user	1m15.804s
+sys	0m1.360s
+compiled_data/2014_data-2-small.csv: 
+real	0m33.075s
+user	1m17.824s
+sys	0m1.200s
+compiled_data/2014_data-3-large.csv: 
+real	1m3.475s
+user	2m6.016s
+sys	0m3.548s
+compiled_data/2015-30199-medium.csv: 
+real	0m18.116s
+user	0m39.824s
+sys	0m0.972s
+compiled_data/2015-61-small.csv: 
+real	0m0.102s
+user	0m0.024s
+sys	0m0.000s
+compiled_data/2015-concat.csv: 
+real	0m3.775s
+user	0m8.076s
+sys	0m0.160s
+compiled_data/2015_data-2-medium.csv: 
+real	0m35.361s
+user	1m24.688s
+sys	0m1.276s
+compiled_data/2015_data-2-small.csv: 
+real	0m33.876s
+user	1m21.920s
+sys	0m1.244s
+compiled_data/anime_cleaned-2-small.csv: 
+real	0m0.257s
+user	0m0.040s
+sys	0m0.012s
+compiled_data/anime_cleaned-80-medium.csv: 
+real	0m7.041s
+user	0m4.576s
+sys	0m0.536s
+compiled_data/anime_filtered-2-small.csv: 
+real	0m0.335s
+user	0m0.096s
+sys	0m0.016s
+compiled_data/anime_filtered-49-medium.csv: 
+real	0m7.623s
+user	0m5.840s
+sys	0m0.584s
+compiled_data/AnimeList-2-small.csv: 
+real	0m0.338s
+user	0m0.084s
+sys	0m0.024s
+compiled_data/AnimeList-49-medium.csv: 
+real	0m7.178s
+user	0m6.016s
+sys	0m0.568s
+compiled_data/animelists_cleaned-2-medium.csv: 
+real	3m57.777s
+user	8m34.068s
+sys	0m11.028s
+compiled_data/animelists_cleaned-2-small.csv: 
+real	4m28.364s
+user	9m23.264s
+sys	0m14.152s
+compiled_data/animelists_filtered-2-medium.csv: 
+real	5m32.962s
+user	12m1.108s
+sys	0m15.196s
+compiled_data/animelists_filtered-2-small.csv: 
+real	5m32.516s
+user	12m15.468s
+sys	0m16.320s
+compiled_data/athlete_events-13-medium.csv: 
+real	0m16.118s
+user	0m30.140s
+sys	0m0.828s
+compiled_data/athlete_events-2-small.csv: 
+real	0m2.289s
+user	0m3.880s
+sys	0m0.132s
+compiled_data/creditcard-2-small.csv: 
+real	0m3.967s
+user	0m1.980s
+sys	0m0.352s
+compiled_data/creditcard-4-medium.csv: 
+real	0m8.878s
+user	0m3.256s
+sys	0m0.780s
+compiled_data/data-2-small.csv: 
+real	0m0.372s
+user	0m0.100s
+sys	0m0.028s
+compiled_data/data-55-medium.csv: 
+real	0m8.040s
+user	0m7.692s
+sys	0m0.576s
+compiled_data/googleplaystore-2-small.csv: 
+real	0m0.146s
+user	0m0.056s
+sys	0m0.000s
+compiled_data/googleplaystore-368-medium.csv: 
+real	0m14.472s
+user	0m30.396s
+sys	0m0.784s
+compiled_data/loan-2-medium.csv: 
+real	0m48.108s
+user	1m17.416s
+sys	0m2.776s
+compiled_data/loan-2-small.csv: 
+real	0m47.218s
+user	1m18.252s
+sys	0m2.732s
+compiled_data/movies_metadata-15-medium.csv: 
+real	0m10.874s
+user	0m14.344s
+sys	0m0.588s
+compiled_data/movies_metadata-2-small.csv: 
+real	0m1.670s
+user	0m0.952s
+sys	0m0.092s
+compiled_data/player_data-1443-medium.csv: 
+real	0m15.501s
+user	0m30.344s
+sys	0m0.792s
+compiled_data/player_data-3-small.csv: 
+real	0m0.100s
+user	0m0.016s
+sys	0m0.000s
+compiled_data/Reviews-2-medium.csv: 
+real	0m10.898s
+user	0m11.568s
+sys	0m0.736s
+compiled_data/Reviews-2-small.csv: 
+real	0m11.151s
+user	0m11.440s
+sys	0m0.720s
+compiled_data/UserAnimeList-2-medium.csv: 
+real	9m17.043s
+user	15m43.060s
+sys	0m21.716s
+compiled_data/UserAnimeList-2-small.csv: 
+real	8m27.666s
+user	16m44.432s
+sys	0m26.952s
+compiled_data/UserList-17-medium.csv: 
+real	0m19.334s
+user	0m41.156s
+sys	0m1.008s
+compiled_data/UserList-2-small.csv: 
+real	0m2.128s
+user	0m4.116s
+sys	0m0.100s
+compiled_data/users_cleaned-2-small.csv: 
+real	0m1.165s
+user	0m1.232s
+sys	0m0.036s
+compiled_data/users_cleaned-32-medium.csv: 
+real	0m18.980s
+user	0m42.204s
+sys	0m0.804s
+compiled_data/users_filtered-2-small.csv: 
+real	0m1.034s
+user	0m0.944s
+sys	0m0.040s
+compiled_data/users_filtered-37-medium.csv: 
+real	0m18.164s
+user	0m38.396s
+sys	0m0.836s
+compiled_data/winemag-data-130k-v2-10-medium.csv: 
+real	0m10.213s
+user	0m11.264s
+sys	0m0.664s
+compiled_data/winemag-data-130k-v2-2-small.csv: 
+real	0m1.892s
+user	0m1.172s
+sys	0m0.124s
