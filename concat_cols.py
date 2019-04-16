@@ -12,6 +12,11 @@ for r, d, f in os.walk(path):
 
 print(files)
 
+df = pd.read_csv(files[1][0])
+print("read 1")
+df2 = pd.read_csv(files[2][0])
+print("read 2")
+
 for i in range(len(files)):
 	for j in range(i+1, len(files)):
 		# df1 = pd.read_csv("Mall_Customers.csv")

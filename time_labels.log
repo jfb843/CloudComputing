@@ -1,208 +1,120 @@
 data/2005_data.csv: 
-real	1m10.695s
-user	0m21.224s
-sys	0m0.608s
+real	0m15.456s
+user	0m32.156s
+sys	0m0.884s
 data/2006_data.csv: 
-real	0m25.547s
-user	0m20.556s
-sys	0m0.552s
+real	0m14.329s
+user	0m33.076s
+sys	0m0.788s
 data/2007_data.csv: 
-real	0m25.296s
-user	0m20.696s
-sys	0m0.484s
+real	0m14.162s
+user	0m32.344s
+sys	0m0.704s
 data/2008_data.csv: 
-real	0m25.702s
-user	0m21.176s
-sys	0m0.464s
+real	0m14.586s
+user	0m33.012s
+sys	0m0.620s
 data/2009_data.csv: 
-real	0m24.814s
-user	0m20.520s
-sys	0m0.480s
+real	0m14.444s
+user	0m32.244s
+sys	0m0.736s
 data/2010_data.csv: 
-real	0m25.963s
-user	0m21.360s
-sys	0m0.552s
+real	0m14.592s
+user	0m33.104s
+sys	0m0.576s
 data/2011_data.csv: 
-real	0m26.352s
-user	0m21.492s
-sys	0m0.548s
+real	0m15.141s
+user	0m33.908s
+sys	0m0.732s
 data/2012_data.csv: 
-real	0m27.132s
-user	0m22.656s
-sys	0m0.484s
+real	0m15.618s
+user	0m34.468s
+sys	0m0.676s
 data/2013_data.csv: 
-real	0m27.085s
-user	0m22.644s
-sys	0m0.560s
+real	0m16.026s
+user	0m35.888s
+sys	0m0.684s
 data/2014_data.csv: 
-real	0m28.189s
-user	0m23.508s
-sys	0m0.516s
+real	0m15.680s
+user	0m35.948s
+sys	0m0.648s
 data/2015.csv: 
-real	0m0.012s
-user	0m0.000s
-sys	0m0.000s
-data/2015_data.csv: 
-real	0m30.907s
-user	0m25.180s
-sys	0m0.516s
-data/adult.csv: 
-real	0m0.263s
-user	0m0.104s
-sys	0m0.008s
-data/anime_cleaned.csv: 
-real	0m0.164s
-user	0m0.016s
-sys	0m0.004s
-data/anime_filtered.csv: 
-real	0m0.318s
-user	0m0.032s
-sys	0m0.012s
-data/AnimeList.csv: 
-real	0m0.200s
-user	0m0.036s
-sys	0m0.008s
-data/animelists_cleaned.csv: 
-real	3m29.141s
-user	2m45.764s
-sys	0m4.996s
-data/animelists_filtered.csv: 
-real	4m24.607s
-user	3m47.572s
-sys	0m5.956s
-data/athlete_events.csv: 
-real	0m1.589s
-user	0m1.080s
-sys	0m0.064s
-data/austria.csv: 
-real	0m13.067s
-user	0m10.468s
-sys	0m0.268s
-data/bitcoin_cash_price.csv: 
 real	0m0.023s
 user	0m0.000s
 sys	0m0.000s
-data/Checkouts_By_Title_Data_Lens_2005.csv: 
-real	0m25.737s
-user	0m22.160s
-sys	0m0.364s
-data/column_2C_weka.csv: 
-real	0m0.010s
-user	0m0.000s
-sys	0m0.000s
-data/country_stats.csv: 
-real	0m0.017s
-user	0m0.000s
-sys	0m0.000s
-data/creditcard.csv: 
-real	0m2.602s
-user	0m0.608s
-sys	0m0.176s
-data/CrowdsCureCancer2017Annotations.csv: 
-real	0m0.034s
-user	0m0.004s
-sys	0m0.000s
-data/cv-invalid.csv: 
-real	0m0.180s
-user	0m0.100s
-sys	0m0.004s
-data/data.csv: 
-real	0m0.323s
+data/2015_data.csv: 
+real	0m16.895s
+user	0m38.040s
+sys	0m0.752s
+data/anime_cleaned.csv: 
+real	0m0.150s
+user	0m0.016s
+sys	0m0.008s
+data/anime_filtered.csv: 
+real	0m0.168s
 user	0m0.036s
 sys	0m0.012s
-data/emails.csv: 
-real	5m14.640s
-user	4m44.932s
-sys	0m3.980s
-data/falldeteciton.csv: 
-real	0m0.086s
+data/AnimeList.csv: 
+real	0m0.226s
 user	0m0.028s
-sys	0m0.000s
-data/feature_tbl.csv: 
-real	0m0.010s
-user	0m0.000s
-sys	0m0.000s
+sys	0m0.020s
+data/animelists_cleaned.csv: 
+real	1m45.346s
+user	4m24.860s
+sys	0m6.660s
+data/animelists_filtered.csv: 
+real	2m23.519s
+user	5m36.100s
+sys	0m7.616s
+data/athlete_events.csv: 
+real	0m1.019s
+user	0m1.316s
+sys	0m0.084s
+data/creditcard.csv: 
+real	0m1.988s
+user	0m0.772s
+sys	0m0.204s
+data/data.csv: 
+real	0m0.211s
+user	0m0.048s
+sys	0m0.012s
 data/googleplaystore.csv: 
-real	0m0.107s
-user	0m0.024s
-sys	0m0.000s
-data/HAM10000_metadata.csv: 
-real	0m0.072s
-user	0m0.024s
-sys	0m0.000s
-data/indian_liver_patient.csv: 
-real	0m0.019s
-user	0m0.000s
-sys	0m0.000s
-data/Iowa_Liquor_Sales.csv: 
-real	6m59.395s
-user	5m56.352s
-sys	0m8.692s
-data/IRAhandle_tweets_10.csv: 
-real	0m2.123s
-user	0m1.096s
-sys	0m0.108s
-data/Iris.csv: 
-real	0m0.024s
-user	0m0.000s
-sys	0m0.000s
-data/isd-history.csv: 
-real	0m0.146s
-user	0m0.056s
+real	0m0.084s
+user	0m0.020s
 sys	0m0.004s
-data/library-collection-inventory.csv: 
-real	15m23.440s
-user	12m31.132s
-sys	0m20.128s
 data/loan.csv: 
-real	0m53.960s
-user	0m24.728s
-sys	0m2.716s
+real	0m22.883s
+user	0m37.924s
+sys	0m1.528s
 data/movies_metadata.csv: 
-real	0m0.928s
+real	0m0.853s
 user	0m0.456s
-sys	0m0.044s
-data/nyc-rolling-sales.csv: 
-real	0m0.814s
-user	0m0.584s
-sys	0m0.008s
-data/parking-citations.csv: 
-real	1m56.938s
-user	1m28.028s
-sys	0m3.812s
+sys	0m0.028s
 data/player_data.csv: 
-real	0m0.029s
+real	0m0.038s
 user	0m0.004s
 sys	0m0.000s
 data/Reviews.csv: 
-real	0m6.628s
-user	0m3.480s
-sys	0m0.376s
-data/speakers_all.csv: 
-real	0m0.033s
-user	0m0.004s
-sys	0m0.000s
+real	0m4.656s
+user	0m5.064s
+sys	0m0.324s
 data/UserAnimeList.csv: 
-real	6m26.644s
-user	4m27.188s
-sys	0m10.240s
+real	3m56.935s
+user	7m48.708s
+sys	0m13.568s
 data/UserList.csv: 
-real	0m1.570s
-user	0m1.196s
-sys	0m0.028s
+real	0m0.875s
+user	0m1.300s
+sys	0m0.076s
 data/users_cleaned.csv: 
-real	0m0.720s
-user	0m0.544s
-sys	0m0.008s
-data/users_filtered.csv: 
-real	0m0.758s
-user	0m0.392s
+real	0m0.713s
+user	0m0.564s
 sys	0m0.020s
-data/Video_Games_Sales_as_at_22_Dec_2016.csv: 
-real	0m0.079s
-user	0m0.036s
-sys	0m0.000s
+data/users_filtered.csv: 
+real	0m0.604s
+user	0m0.432s
+sys	0m0.016s
 data/winemag-data-130k-v2.csv: 
-real	0m1.154s
-user	0m0.492s
-sys	0m0.052s
+real	0m1.146s
+user	0m0.576s
+sys	0m0.032s
