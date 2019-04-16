@@ -1,3 +1,5 @@
+#Author: Sharmila Tamby 
+
 #!/usr/bin/env bash
 
 # all_files=$(find ~/CloudComputing/data/*.csv -type f -size -2000000c)
