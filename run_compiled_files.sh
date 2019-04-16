@@ -10,6 +10,7 @@
 #	combined_feature_tbl.csv
 # If running create_compied_labels.py doesnt work at first you need to remove first 
 #	line ine compiled_mem_labels.log
+# compiled_models.py makes graphs
 
 echo "Running generate labels"
 
@@ -26,4 +27,6 @@ echo "Running create labels.py"
 
 python3 create_compiled_labels.py
 
+echo "Making models"
+python3 compiled_models.py
 
