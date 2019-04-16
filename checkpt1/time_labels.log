@@ -1,0 +1,120 @@
+data/2005_data.csv: 
+real	0m15.456s
+user	0m32.156s
+sys	0m0.884s
+data/2006_data.csv: 
+real	0m14.329s
+user	0m33.076s
+sys	0m0.788s
+data/2007_data.csv: 
+real	0m14.162s
+user	0m32.344s
+sys	0m0.704s
+data/2008_data.csv: 
+real	0m14.586s
+user	0m33.012s
+sys	0m0.620s
+data/2009_data.csv: 
+real	0m14.444s
+user	0m32.244s
+sys	0m0.736s
+data/2010_data.csv: 
+real	0m14.592s
+user	0m33.104s
+sys	0m0.576s
+data/2011_data.csv: 
+real	0m15.141s
+user	0m33.908s
+sys	0m0.732s
+data/2012_data.csv: 
+real	0m15.618s
+user	0m34.468s
+sys	0m0.676s
+data/2013_data.csv: 
+real	0m16.026s
+user	0m35.888s
+sys	0m0.684s
+data/2014_data.csv: 
+real	0m15.680s
+user	0m35.948s
+sys	0m0.648s
+data/2015.csv: 
+real	0m0.023s
+user	0m0.000s
+sys	0m0.000s
+data/2015_data.csv: 
+real	0m16.895s
+user	0m38.040s
+sys	0m0.752s
+data/anime_cleaned.csv: 
+real	0m0.150s
+user	0m0.016s
+sys	0m0.008s
+data/anime_filtered.csv: 
+real	0m0.168s
+user	0m0.036s
+sys	0m0.012s
+data/AnimeList.csv: 
+real	0m0.226s
+user	0m0.028s
+sys	0m0.020s
+data/animelists_cleaned.csv: 
+real	1m45.346s
+user	4m24.860s
+sys	0m6.660s
+data/animelists_filtered.csv: 
+real	2m23.519s
+user	5m36.100s
+sys	0m7.616s
+data/athlete_events.csv: 
+real	0m1.019s
+user	0m1.316s
+sys	0m0.084s
+data/creditcard.csv: 
+real	0m1.988s
+user	0m0.772s
+sys	0m0.204s
+data/data.csv: 
+real	0m0.211s
+user	0m0.048s
+sys	0m0.012s
+data/googleplaystore.csv: 
+real	0m0.084s
+user	0m0.020s
+sys	0m0.004s
+data/loan.csv: 
+real	0m22.883s
+user	0m37.924s
+sys	0m1.528s
+data/movies_metadata.csv: 
+real	0m0.853s
+user	0m0.456s
+sys	0m0.028s
+data/player_data.csv: 
+real	0m0.038s
+user	0m0.004s
+sys	0m0.000s
+data/Reviews.csv: 
+real	0m4.656s
+user	0m5.064s
+sys	0m0.324s
+data/UserAnimeList.csv: 
+real	3m56.935s
+user	7m48.708s
+sys	0m13.568s
+data/UserList.csv: 
+real	0m0.875s
+user	0m1.300s
+sys	0m0.076s
+data/users_cleaned.csv: 
+real	0m0.713s
+user	0m0.564s
+sys	0m0.020s
+data/users_filtered.csv: 
+real	0m0.604s
+user	0m0.432s
+sys	0m0.016s
+data/winemag-data-130k-v2.csv: 
+real	0m1.146s
+user	0m0.576s
+sys	0m0.032s
