@@ -1,3 +1,4 @@
+#Author: Amy He
 mem_labels = open("compiled_mem_labels.log", "r")
 time_labels = open("compiled_time_labels.log", "r")
 
