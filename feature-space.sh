@@ -9,7 +9,7 @@ rm "size_row_cols.log"
 # get file size, num rows, num cols
 for ((i=0;i<${#all_ds[@]};i++)); do
 	name=$(basename "${files[i]}" .csv)
-	echo "Calculating file size, number of rows, number of columns for ${name}..."
+	echo "Calculating features for ${name}.csv..."
 
 	size=$(stat -c '%s' ${files[i]})
 	rows=$(cat ${files[i]} | wc -l)

@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 import os
 
-# path = "data/"
+path = "compiled_data/"
 # files = []
 
 # for r, d, f in os.walk(path):
@@ -14,8 +14,8 @@ import os
 
 file = sys.argv[1]
 file2 = sys.argv[2]
-name = file.split(".csv")[0]
-name2 = file2.split(".csv")[0]
+name = file.spliti("/")[1]
+name2 = file2.split("/")[1]
 
 df1 = pd.read_csv(file)
 df2 = pd.read_csv(file2)
@@ -29,6 +29,6 @@ result.reset_index(inplace=True, drop=True)
 result.replace("", np.nan, inplace=True)
 df = result.dropna(how='any')
 
-output_file = path + "/" + name + "-" + name2 + ".csv"
+output_file = path + name + "-" + name2 + ".csv"
 df.to_csv(output_file, index=False)
 print("shape", df.shape) # output (rows, cols)

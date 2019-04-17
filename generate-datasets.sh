@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
-mkdir -p "compiled_data/"
+rm -r "compiled_data/"
+mkdir "compiled_data/"
 
 # all_files=$(find ~/CloudComputing/data/*.csv -type f -size -2000000c)
 all_files=(~/CloudComputing/data/*.csv)
@@ -13,14 +14,14 @@ for ((i=0;i<${#all_files[@]};i++)); do
 	name=$(basename "${all_files[i]}" .csv)
 
 	# duplicate all files
-	cat ${all_files[i]} ${all_files[i]}  >> ~/CloudComputing/data/${name}-merged.csv
-	size=$(stat -c %s ~/CloudComputing/data/${name}-merged.csv)
+	cat ${all_files[i]} ${all_files[i]}  >> ~/CloudComputing/compiled_data/${name}-merged.csv
+	size=$(stat -c %s ~/CloudComputing/compiled_data/${name}-merged.csv)
 	echo "Size of $name is... "${size}""
 	
 	# if still not sufficiently large, duplicate again
 	while [ "${size}" -lt 1000000 ]; do
-		cat ${all_files[i]} >> ~/CloudComputing/data/${name}-merged.csv
-		size=$(stat -c %s ~/CloudComputing/data/${name}-merged.csv)
+		cat ${all_files[i]} >> ~/CloudComputing/compiled_data/${name}-merged.csv
+		size=$(stat -c %s ~/CloudComputing/compiled_data/${name}-merged.csv)
 		echo "Size of ${name} is... "${size}""
 	done
 done
