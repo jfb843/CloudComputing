@@ -1,4 +1,4 @@
-,filename,size,rows,cols
+id,filename,size,rows,cols
 0,data/2005_data.csv,381752038,2452507,77
 1,data/2006_data.csv,378949899,2430726,77
 2,data/2007_data.csv,378752736,2428344,77
