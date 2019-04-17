@@ -21,7 +21,7 @@ echo "Working directory $PWD"
 echo "copying output"
 #find data -maxdepth 1 -type f > sample.log
 #cd compiled_data
-ls -ld compiled_data/* > compiled_mem_labels.log
+ls -ld compiled_data/*.csv > compiled_mem_labels.log
 
 echo "Running create labels.py"
 

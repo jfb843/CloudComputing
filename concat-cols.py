@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import os
+import sys
 
 path = "compiled_data/"
 # files = []
@@ -12,14 +13,14 @@ path = "compiled_data/"
 
 # print(files)
 
-file = sys.argv[1]
+file1 = sys.argv[1]
 file2 = sys.argv[2]
-name = file.spliti("/")[1]
-name2 = file2.split("/")[1]
+name = file1.split("/")[-1]
+name2 = file2.split("/")[-1]
 
-df1 = pd.read_csv(file)
+df1 = pd.read_csv(file1)
 df2 = pd.read_csv(file2)
-print(file, file2)
+print(file1, file2)
 
 # combine by COLUMN
 result = pd.concat([df1, df2], axis=1)

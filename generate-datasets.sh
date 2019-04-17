@@ -1,33 +1,33 @@
 #!/usr/bin/env bash
 
-rm -r "compiled_data/"
-mkdir "compiled_data/"
+# rm -r "compiled_data/"
+# mkdir "compiled_data/"
 
-# all_files=$(find ~/CloudComputing/data/*.csv -type f -size -2000000c)
-all_files=(~/CloudComputing/data/*.csv)
-echo "Number of files ${#all_files[@]}..."
+## all_files=$(find ~/CloudComputing/data/*.csv -type f -size -2000000c)
+#all_files=(~/CloudComputing/data/*.csv)
+#echo "Number of files ${#all_files[@]}..."
 
-# Duplicate and concat small files
-for ((i=0;i<${#all_files[@]};i++)); do
-	echo "Duplicating ${all_files[i]}..."
-	# extract filename for easy output file name
-	name=$(basename "${all_files[i]}" .csv)
-
-	# duplicate all files
-	cat ${all_files[i]} ${all_files[i]}  >> ~/CloudComputing/compiled_data/${name}-merged.csv
-	size=$(stat -c %s ~/CloudComputing/compiled_data/${name}-merged.csv)
-	echo "Size of $name is... "${size}""
-	
-	# if still not sufficiently large, duplicate again
-	while [ "${size}" -lt 1000000 ]; do
-		cat ${all_files[i]} >> ~/CloudComputing/compiled_data/${name}-merged.csv
-		size=$(stat -c %s ~/CloudComputing/compiled_data/${name}-merged.csv)
-		echo "Size of ${name} is... "${size}""
-	done
-done
-
+## Duplicate and concat small files
+#for ((i=0;i<${#all_files[@]};i++)); do
+#	echo "Duplicating ${all_files[i]}..."
+#	# extract filename for easy output file name
+#	name=$(basename "${all_files[i]}" .csv)
+#
+#	# duplicate all files
+#	cat ${all_files[i]} ${all_files[i]}  >> ~/CloudComputing/compiled_data/${name}-merged.csv
+#	size=$(stat -c %s ~/CloudComputing/compiled_data/${name}-merged.csv)
+#	echo "Size of $name is... "${size}""
+#	
+#	# if still not sufficiently large, duplicate again
+#	while [ "${size}" -lt 1000000 ]; do
+#		cat ${all_files[i]} >> ~/CloudComputing/compiled_data/${name}-merged.csv
+#		size=$(stat -c %s ~/CloudComputing/compiled_data/${name}-merged.csv)
+#		echo "Size of ${name} is... "${size}""
+#	done
+#done
+#
 # concat the 20x_data files
-cat ~/CloudComputing/data/20*_data.csv > ~/CloudComputing/compiled_data/mortality-merged.csv
+#cat ~/CloudComputing/data/20*_data.csv > ~/CloudComputing/compiled_data/mortality-merged.csv
 
 # goal of 100 files
 num_files=$(find ~/CloudComputing/compiled_data -type f -name "*.csv" | wc -l)
