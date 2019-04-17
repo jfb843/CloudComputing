@@ -16,8 +16,14 @@ for line in info:
 info.close()
 
 #Separate files into test and train
-train_files = file_info.keys()[:70] #70% of files
-test_files = file_info.keys()[70:] 
+train_index = random.sample(range(0, len(file_info.keys())), 70)
+train_files = []
+test_files = []
+for i in range(0, len(file_info.keys())):
+        if i in train_index:
+                train_files.append(file_info.keys()[i])
+        else:
+                test_files.append(file_info.keys()[i])
 
 #List of commands to generate from 
 commands = ["sort", "min", "max"] #, "grep", "sum"]
