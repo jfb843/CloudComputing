@@ -1,0 +1,1051 @@
+filename,sort_time,max_time,min_time
+/home/jfb843/CloudComputing/data/2005_data.csv:,
+real	0m13.097s
+user	0m33.612s
+sys	0m0.548s,
+real	0m1.624s
+user	0m1.500s
+sys	0m0.116s,
+real	0m1.285s
+user	0m1.184s
+sys	0m0.100s
+/home/jfb843/CloudComputing/data/2006_data.csv:,
+real	0m13.955s
+user	0m33.360s
+sys	0m0.516s,
+real	0m1.314s
+user	0m1.204s
+sys	0m0.104s,
+real	0m1.673s
+user	0m1.536s
+sys	0m0.132s
+/home/jfb843/CloudComputing/data/2007_data.csv:,
+real	0m17.420s
+user	0m33.800s
+sys	0m0.560s,
+real	0m1.284s
+user	0m1.168s
+sys	0m0.112s,
+real	0m1.507s
+user	0m1.392s
+sys	0m0.112s
+/home/jfb843/CloudComputing/data/2008_data.csv:,
+real	0m17.865s
+user	0m34.076s
+sys	0m0.664s,
+real	0m1.303s
+user	0m1.192s
+sys	0m0.108s,
+real	0m1.732s
+user	0m1.588s
+sys	0m0.132s
+/home/jfb843/CloudComputing/data/2009_data.csv:,
+real	0m17.036s
+user	0m33.428s
+sys	0m0.540s,
+real	0m1.281s
+user	0m1.168s
+sys	0m0.112s,
+real	0m1.605s
+user	0m1.472s
+sys	0m0.128s
+/home/jfb843/CloudComputing/data/2010_data.csv:,
+real	0m17.535s
+user	0m34.172s
+sys	0m0.600s,
+real	0m1.290s
+user	0m1.184s
+sys	0m0.104s,
+real	0m1.768s
+user	0m1.664s
+sys	0m0.096s
+/home/jfb843/CloudComputing/data/2011_data.csv:,
+real	0m18.054s
+user	0m34.860s
+sys	0m0.516s,
+real	0m1.364s
+user	0m1.228s
+sys	0m0.132s,
+real	0m1.870s
+user	0m1.736s
+sys	0m0.132s
+/home/jfb843/CloudComputing/data/2012_data.csv:,
+real	0m18.644s
+user	0m35.396s
+sys	0m0.644s,
+real	0m1.879s
+user	0m1.740s
+sys	0m0.120s,
+real	0m1.367s
+user	0m1.260s
+sys	0m0.096s
+/home/jfb843/CloudComputing/data/2013_data.csv:,
+real	0m18.710s
+user	0m36.892s
+sys	0m0.616s,
+real	0m1.365s
+user	0m1.260s
+sys	0m0.104s,
+real	0m1.349s
+user	0m1.228s
+sys	0m0.120s
+/home/jfb843/CloudComputing/data/2014_data.csv:,
+real	0m18.750s
+user	0m37.240s
+sys	0m0.644s,
+real	0m1.396s
+user	0m1.276s
+sys	0m0.116s,
+real	0m1.929s
+user	0m1.808s
+sys	0m0.112s
+/home/jfb843/CloudComputing/data/2015.csv:,
+real	0m0.015s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/2015_data.csv:,
+real	0m21.007s
+user	0m40.016s
+sys	0m0.608s,
+real	0m1.454s
+user	0m1.304s
+sys	0m0.148s,
+real	0m1.413s
+user	0m1.300s
+sys	0m0.112s
+/home/jfb843/CloudComputing/data/adult.csv:,
+real	0m0.304s
+user	0m0.136s
+sys	0m0.004s,
+real	0m0.028s
+user	0m0.024s
+sys	0m0.000s,
+real	0m0.028s
+user	0m0.020s
+sys	0m0.004s
+/home/jfb843/CloudComputing/data/anime_cleaned.csv:,
+real	0m0.193s
+user	0m0.024s
+sys	0m0.000s,
+real	0m0.012s
+user	0m0.012s
+sys	0m0.000s,
+real	0m0.011s
+user	0m0.008s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/anime_filtered.csv:,
+real	0m0.300s
+user	0m0.032s
+sys	0m0.016s,
+real	0m0.016s
+user	0m0.008s
+sys	0m0.008s,
+real	0m0.016s
+user	0m0.008s
+sys	0m0.004s
+/home/jfb843/CloudComputing/data/AnimeList.csv:,
+real	0m0.255s
+user	0m0.044s
+sys	0m0.020s,
+real	0m0.018s
+user	0m0.012s
+sys	0m0.004s,
+real	0m0.023s
+user	0m0.016s
+sys	0m0.004s
+/home/jfb843/CloudComputing/data/animelists_cleaned.csv:,
+real	2m17.636s
+user	4m20.840s
+sys	0m7.324s,
+real	0m23.170s
+user	0m15.672s
+sys	0m1.032s,
+real	0m15.458s
+user	0m14.776s
+sys	0m0.656s
+/home/jfb843/CloudComputing/data/animelists_filtered.csv:,
+real	3m10.209s
+user	5m46.448s
+sys	0m8.540s,
+real	0m34.009s
+user	0m17.448s
+sys	0m1.196s,
+real	0m17.058s
+user	0m16.332s
+sys	0m0.704s
+/home/jfb843/CloudComputing/data/athlete_events.csv:,
+real	0m1.241s
+user	0m1.748s
+sys	0m0.036s,
+real	0m0.221s
+user	0m0.204s
+sys	0m0.016s,
+real	0m0.224s
+user	0m0.204s
+sys	0m0.016s
+/home/jfb843/CloudComputing/data/austria.csv:,
+real	0m8.228s
+user	0m18.044s
+sys	0m0.340s,
+real	0m1.425s
+user	0m1.360s
+sys	0m0.060s,
+real	0m1.121s
+user	0m1.080s
+sys	0m0.040s
+/home/jfb843/CloudComputing/data/bitcoin_cash_price.csv:,
+real	0m0.021s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/checkouts-by-title.csv:,
+real	6m11.038s
+user	8m22.472s
+sys	0m18.236s,
+real	1m17.433s
+user	0m22.376s
+sys	0m3.884s,
+real	0m55.922s
+user	0m21.224s
+sys	0m3.148s
+/home/jfb843/CloudComputing/data/Checkouts_By_Title_Data_Lens_2005.csv:,
+real	0m16.217s
+user	0m31.540s
+sys	0m0.684s,
+real	0m2.797s
+user	0m2.656s
+sys	0m0.132s,
+real	0m2.288s
+user	0m2.192s
+sys	0m0.088s
+/home/jfb843/CloudComputing/data/column_2C_weka.csv:,
+real	0m0.025s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/country_stats.csv:,
+real	0m0.016s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/creditcard.csv:,
+real	0m2.073s
+user	0m0.976s
+sys	0m0.264s,
+real	0m0.380s
+user	0m0.328s
+sys	0m0.048s,
+real	0m0.405s
+user	0m0.344s
+sys	0m0.056s
+/home/jfb843/CloudComputing/data/CrowdsCureCancer2017Annotations.csv:,
+real	0m0.078s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.006s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.005s
+user	0m0.004s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/cv-invalid.csv:,
+real	0m0.228s
+user	0m0.132s
+sys	0m0.004s,
+real	0m0.019s
+user	0m0.016s
+sys	0m0.000s,
+real	0m0.015s
+user	0m0.012s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/data.csv:,
+real	0m0.186s
+user	0m0.044s
+sys	0m0.008s,
+real	0m0.019s
+user	0m0.012s
+sys	0m0.004s,
+real	0m0.026s
+user	0m0.016s
+sys	0m0.004s
+/home/jfb843/CloudComputing/data/emails.csv:,
+real	3m40.200s
+user	7m18.576s
+sys	0m5.052s,
+real	0m24.448s
+user	0m15.456s
+sys	0m0.732s,
+real	0m15.206s
+user	0m14.840s
+sys	0m0.348s
+/home/jfb843/CloudComputing/data/falldeteciton.csv:,
+real	0m0.093s
+user	0m0.024s
+sys	0m0.000s,
+real	0m0.008s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.008s
+user	0m0.004s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/feature_tbl.csv:,
+real	0m0.061s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/googleplaystore.csv:,
+real	0m0.124s
+user	0m0.020s
+sys	0m0.000s,
+real	0m0.008s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.008s
+user	0m0.004s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/HAM10000_metadata.csv:,
+real	0m0.067s
+user	0m0.024s
+sys	0m0.000s,
+real	0m0.006s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.006s
+user	0m0.000s
+sys	0m0.004s
+/home/jfb843/CloudComputing/data/indian_liver_patient.csv:,
+real	0m0.030s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/Iowa_Liquor_Sales.csv:,
+real	4m55.675s
+user	8m50.148s
+sys	0m9.864s,
+real	0m46.511s
+user	0m21.356s
+sys	0m1.924s,
+real	0m21.462s
+user	0m20.288s
+sys	0m1.144s
+/home/jfb843/CloudComputing/data/IRAhandle_tweets_10.csv:,
+real	0m2.135s
+user	0m1.708s
+sys	0m0.068s,
+real	0m0.296s
+user	0m0.192s
+sys	0m0.040s,
+real	0m0.201s
+user	0m0.168s
+sys	0m0.032s
+/home/jfb843/CloudComputing/data/Iris.csv:,
+real	0m0.022s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.002s
+user	0m0.000s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/library-collection-inventory.csv:,
+real	12m35.577s
+user	17m20.832s
+sys	0m21.840s,
+real	1m21.839s
+user	0m19.164s
+sys	0m4.468s,
+real	1m18.713s
+user	0m19.276s
+sys	0m4.840s
+/home/jfb843/CloudComputing/data/loan.csv:,
+real	0m26.493s
+user	0m38.376s
+sys	0m1.528s,
+real	0m8.920s
+user	0m1.912s
+sys	0m0.616s,
+real	0m1.749s
+user	0m1.500s
+sys	0m0.248s
+/home/jfb843/CloudComputing/data/movies_metadata.csv:,
+real	0m0.930s
+user	0m0.440s
+sys	0m0.036s,
+real	0m0.048s
+user	0m0.036s
+sys	0m0.008s,
+real	0m0.046s
+user	0m0.036s
+sys	0m0.008s
+/home/jfb843/CloudComputing/data/nyc-rolling-sales.csv:,
+real	0m1.141s
+user	0m0.944s
+sys	0m0.016s,
+real	0m0.059s
+user	0m0.052s
+sys	0m0.000s,
+real	0m0.069s
+user	0m0.060s
+sys	0m0.008s
+/home/jfb843/CloudComputing/data/parking-citations.csv:,
+real	1m20.158s
+user	2m18.124s
+sys	0m4.164s,
+real	0m15.926s
+user	0m5.952s
+sys	0m0.748s,
+real	0m5.900s
+user	0m5.488s
+sys	0m0.392s
+/home/jfb843/CloudComputing/data/player_data.csv:,
+real	0m0.141s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.007s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.005s
+user	0m0.004s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/Reviews.csv:,
+real	0m5.138s
+user	0m5.260s
+sys	0m0.372s,
+real	0m0.687s
+user	0m0.596s
+sys	0m0.084s,
+real	0m0.649s
+user	0m0.544s
+sys	0m0.100s
+/home/jfb843/CloudComputing/data/speakers_all.csv:,
+real	0m0.022s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.004s
+user	0m0.000s
+sys	0m0.000s,
+real	0m0.006s
+user	0m0.000s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/UserAnimeList.csv:,
+real	4m37.998s
+user	7m44.104s
+sys	0m12.264s,
+real	1m9.526s
+user	0m35.636s
+sys	0m3.064s,
+real	0m36.969s
+user	0m35.208s
+sys	0m1.712s
+/home/jfb843/CloudComputing/data/UserList.csv:,
+real	0m1.031s
+user	0m1.760s
+sys	0m0.048s,
+real	0m0.159s
+user	0m0.136s
+sys	0m0.020s,
+real	0m0.156s
+user	0m0.148s
+sys	0m0.004s
+/home/jfb843/CloudComputing/data/users_cleaned.csv:,
+real	0m0.704s
+user	0m0.528s
+sys	0m0.012s,
+real	0m0.069s
+user	0m0.068s
+sys	0m0.000s,
+real	0m0.066s
+user	0m0.060s
+sys	0m0.004s
+/home/jfb843/CloudComputing/data/users_filtered.csv:,
+real	0m0.670s
+user	0m0.448s
+sys	0m0.012s,
+real	0m0.093s
+user	0m0.092s
+sys	0m0.000s,
+real	0m0.096s
+user	0m0.088s
+sys	0m0.004s
+/home/jfb843/CloudComputing/data/Video_Games_Sales_as_at_22_Dec_2016.csv:,
+real	0m0.109s
+user	0m0.036s
+sys	0m0.000s,
+real	0m0.015s
+user	0m0.012s
+sys	0m0.000s,
+real	0m0.012s
+user	0m0.008s
+sys	0m0.000s
+/home/jfb843/CloudComputing/data/winemag-data-130k-v2.csv:,
+real	0m1.397s
+user	0m0.740s
+sys	0m0.072s,
+real	0m0.244s
+user	0m0.124s
+sys	0m0.020s,
+real	0m0.132s
+user	0m0.108s
+sys	0m0.020s
+/home/jfb843/CloudComputing/compiled_data/2005_data-merged.csv:,
+real	0m36.091s
+user	1m12.496s
+sys	0m1.312s,
+real	0m7.117s
+user	0m2.832s
+sys	0m0.452s,
+real	0m2.903s
+user	0m2.712s
+sys	0m0.184s
+/home/jfb843/CloudComputing/compiled_data/2006_data-merged.csv:,
+real	0m34.499s
+user	1m10.932s
+sys	0m1.172s,
+real	0m5.762s
+user	0m2.872s
+sys	0m0.348s,
+real	0m3.379s
+user	0m3.092s
+sys	0m0.280s
+/home/jfb843/CloudComputing/compiled_data/2007_data-merged.csv:,
+real	0m36.293s
+user	1m11.872s
+sys	0m1.236s,
+real	0m6.654s
+user	0m2.780s
+sys	0m0.420s,
+real	0m3.488s
+user	0m3.268s
+sys	0m0.204s
+/home/jfb843/CloudComputing/compiled_data/2008_data-merged.csv:,
+real	0m36.279s
+user	1m13.676s
+sys	0m1.316s,
+real	0m7.121s
+user	0m2.776s
+sys	0m0.456s,
+real	0m3.322s
+user	0m3.136s
+sys	0m0.180s
+/home/jfb843/CloudComputing/compiled_data/2009_data-merged.csv:,
+real	0m35.050s
+user	1m11.600s
+sys	0m1.264s,
+real	0m6.640s
+user	0m3.000s
+sys	0m0.436s,
+real	0m2.700s
+user	0m2.492s
+sys	0m0.204s
+/home/jfb843/CloudComputing/compiled_data/2010_data-merged.csv:,
+real	0m35.622s
+user	1m12.756s
+sys	0m1.132s,
+real	0m7.708s
+user	0m3.212s
+sys	0m0.364s,
+real	0m2.915s
+user	0m2.676s
+sys	0m0.232s
+/home/jfb843/CloudComputing/compiled_data/2011_data-merged.csv:,
+real	0m37.075s
+user	1m15.256s
+sys	0m1.264s,
+real	0m7.525s
+user	0m3.192s
+sys	0m0.480s,
+real	0m2.802s
+user	0m2.612s
+sys	0m0.188s
+/home/jfb843/CloudComputing/compiled_data/2012_data-merged.csv:,
+real	0m37.503s
+user	1m16.768s
+sys	0m1.332s,
+real	0m7.805s
+user	0m3.020s
+sys	0m0.488s,
+real	0m2.957s
+user	0m2.748s
+sys	0m0.204s
+/home/jfb843/CloudComputing/compiled_data/2013_data-merged.csv:,
+real	0m38.979s
+user	1m18.400s
+sys	0m1.308s,
+real	0m7.625s
+user	0m2.908s
+sys	0m0.500s,
+real	0m3.687s
+user	0m3.372s
+sys	0m0.300s
+/home/jfb843/CloudComputing/compiled_data/2014_data-merged.csv:,
+real	0m39.743s
+user	1m20.640s
+sys	0m1.292s,
+real	0m7.641s
+user	0m3.288s
+sys	0m0.392s,
+real	0m2.868s
+user	0m2.684s
+sys	0m0.180s
+/home/jfb843/CloudComputing/compiled_data/2015_data-merged.csv:,
+real	0m39.995s
+user	1m24.956s
+sys	0m1.228s,
+real	0m8.856s
+user	0m3.284s
+sys	0m0.356s,
+real	0m3.643s
+user	0m3.412s
+sys	0m0.220s
+/home/jfb843/CloudComputing/compiled_data/2015-merged.csv:,
+real	0m0.124s
+user	0m0.024s
+sys	0m0.000s,
+real	0m0.007s
+user	0m0.004s
+sys	0m0.000s,
+real	0m0.007s
+user	0m0.004s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/adult-merged.csv:,
+real	0m0.359s
+user	0m0.224s
+sys	0m0.004s,
+real	0m0.036s
+user	0m0.032s
+sys	0m0.000s,
+real	0m0.035s
+user	0m0.024s
+sys	0m0.008s
+/home/jfb843/CloudComputing/compiled_data/anime_cleaned-merged.csv:,
+real	0m0.294s
+user	0m0.040s
+sys	0m0.004s,
+real	0m0.017s
+user	0m0.008s
+sys	0m0.008s,
+real	0m0.017s
+user	0m0.016s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/anime_filtered-merged.csv:,
+real	0m0.316s
+user	0m0.080s
+sys	0m0.016s,
+real	0m0.030s
+user	0m0.028s
+sys	0m0.000s,
+real	0m0.029s
+user	0m0.028s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/AnimeList-merged.csv:,
+real	0m0.286s
+user	0m0.084s
+sys	0m0.012s,
+real	0m0.029s
+user	0m0.024s
+sys	0m0.004s,
+real	0m0.029s
+user	0m0.024s
+sys	0m0.004s
+/home/jfb843/CloudComputing/compiled_data/animelists_cleaned-merged.csv:,
+real	5m6.063s
+user	8m39.068s
+sys	0m11.788s,
+real	1m5.331s
+user	0m33.168s
+sys	0m2.608s,
+real	0m34.082s
+user	0m32.576s
+sys	0m1.436s
+/home/jfb843/CloudComputing/compiled_data/animelists_filtered-merged.csv:,
+real	6m19.854s
+user	11m16.156s
+sys	0m12.636s,
+real	1m9.497s
+user	0m37.200s
+sys	0m2.672s,
+real	0m38.484s
+user	0m36.828s
+sys	0m1.544s
+/home/jfb843/CloudComputing/compiled_data/athlete_events-merged.csv:,
+real	0m2.352s
+user	0m3.796s
+sys	0m0.108s,
+real	0m0.327s
+user	0m0.296s
+sys	0m0.028s,
+real	0m0.325s
+user	0m0.304s
+sys	0m0.020s
+/home/jfb843/CloudComputing/compiled_data/austria-merged.csv:,
+real	0m17.991s
+user	0m37.684s
+sys	0m0.720s,
+real	0m4.261s
+user	0m2.672s
+sys	0m0.116s,
+real	0m2.985s
+user	0m2.900s
+sys	0m0.068s
+/home/jfb843/CloudComputing/compiled_data/bitcoin_cash_price-merged.csv:,
+real	0m0.075s
+user	0m0.024s
+sys	0m0.000s,
+real	0m0.012s
+user	0m0.008s
+sys	0m0.000s,
+real	0m0.010s
+user	0m0.008s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/Checkouts_By_Title_Data_Lens_2005-merged.csv:,
+real	0m33.473s
+user	1m8.148s
+sys	0m1.180s,
+real	0m7.701s
+user	0m5.172s
+sys	0m0.208s,
+real	0m5.487s
+user	0m5.344s
+sys	0m0.132s
+/home/jfb843/CloudComputing/compiled_data/checkouts-by-title-merged.csv:,
+real	13m18.461s
+user	17m3.976s
+sys	0m34.496s,
+real	2m41.907s
+user	0m48.288s
+sys	0m9.008s,
+real	2m35.630s
+user	0m48.516s
+sys	0m8.508s
+/home/jfb843/CloudComputing/compiled_data/column_2C_weka-merged.csv:,
+real	0m0.097s
+user	0m0.032s
+sys	0m0.000s,
+real	0m0.012s
+user	0m0.008s
+sys	0m0.000s,
+real	0m0.012s
+user	0m0.008s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/country_stats-merged.csv:,
+real	0m0.052s
+user	0m0.020s
+sys	0m0.004s,
+real	0m0.015s
+user	0m0.008s
+sys	0m0.000s,
+real	0m0.009s
+user	0m0.004s
+sys	0m0.004s
+/home/jfb843/CloudComputing/compiled_data/creditcard-merged.csv:,
+real	0m4.802s
+user	0m2.132s
+sys	0m0.400s,
+real	0m0.851s
+user	0m0.744s
+sys	0m0.096s,
+real	0m0.772s
+user	0m0.672s
+sys	0m0.096s
+/home/jfb843/CloudComputing/compiled_data/CrowdsCureCancer2017Annotations-merged.csv:,
+real	0m0.037s
+user	0m0.012s
+sys	0m0.000s,
+real	0m0.009s
+user	0m0.008s
+sys	0m0.000s,
+real	0m0.006s
+user	0m0.004s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/cv-invalid-merged.csv:,
+real	0m0.351s
+user	0m0.224s
+sys	0m0.008s,
+real	0m0.029s
+user	0m0.024s
+sys	0m0.004s,
+real	0m0.030s
+user	0m0.024s
+sys	0m0.004s
+/home/jfb843/CloudComputing/compiled_data/data-merged.csv:,
+real	0m0.304s
+user	0m0.088s
+sys	0m0.020s,
+real	0m0.035s
+user	0m0.032s
+sys	0m0.000s,
+real	0m0.034s
+user	0m0.028s
+sys	0m0.004s
+/home/jfb843/CloudComputing/compiled_data/emails-merged.csv:,
+real	7m27.563s
+user	15m1.364s
+sys	0m9.068s,
+real	0m36.703s
+user	0m32.856s
+sys	0m1.032s,
+real	0m33.420s
+user	0m32.760s
+sys	0m0.616s
+/home/jfb843/CloudComputing/compiled_data/falldeteciton-merged.csv:,
+real	0m0.146s
+user	0m0.084s
+sys	0m0.004s,
+real	0m0.022s
+user	0m0.016s
+sys	0m0.004s,
+real	0m0.022s
+user	0m0.020s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/feature_tbl-merged.csv:,
+real	0m0.193s
+user	0m0.104s
+sys	0m0.000s,
+real	0m0.014s
+user	0m0.012s
+sys	0m0.000s,
+real	0m0.013s
+user	0m0.008s
+sys	0m0.004s
+/home/jfb843/CloudComputing/compiled_data/googleplaystore-merged.csv:,
+real	0m0.178s
+user	0m0.080s
+sys	0m0.004s,
+real	0m0.021s
+user	0m0.016s
+sys	0m0.004s,
+real	0m0.021s
+user	0m0.016s
+sys	0m0.004s
+/home/jfb843/CloudComputing/compiled_data/HAM10000_metadata-merged.csv:,
+real	0m0.105s
+user	0m0.100s
+sys	0m0.000s,
+real	0m0.015s
+user	0m0.012s
+sys	0m0.000s,
+real	0m0.018s
+user	0m0.012s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/indian_liver_patient-merged.csv:,
+real	0m0.070s
+user	0m0.064s
+sys	0m0.000s,
+real	0m0.015s
+user	0m0.008s
+sys	0m0.004s,
+real	0m0.018s
+user	0m0.016s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/Iowa_Liquor_Sales-merged.csv:,
+real	11m20.193s
+user	21m12.124s
+sys	0m22.672s,
+real	1m36.425s
+user	0m45.768s
+sys	0m4.300s,
+real	0m47.044s
+user	0m44.436s
+sys	0m2.524s
+/home/jfb843/CloudComputing/compiled_data/IRAhandle_tweets_10-merged.csv:,
+real	0m3.466s
+user	0m3.432s
+sys	0m0.236s,
+real	0m0.399s
+user	0m0.360s
+sys	0m0.036s,
+real	0m0.392s
+user	0m0.360s
+sys	0m0.028s
+/home/jfb843/CloudComputing/compiled_data/Iris-merged.csv:,
+real	0m0.104s
+user	0m0.024s
+sys	0m0.004s,
+real	0m0.013s
+user	0m0.012s
+sys	0m0.000s,
+real	0m0.013s
+user	0m0.012s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/library-collection-inventory-merged.csv:,
+real	34m36.822s
+user	46m3.128s
+sys	0m44.012s,
+real	2m58.127s
+user	0m40.636s
+sys	0m9.652s,
+real	2m53.302s
+user	0m40.772s
+sys	0m9.604s
+/home/jfb843/CloudComputing/compiled_data/loan-merged.csv:,
+real	1m8.661s
+user	1m20.604s
+sys	0m6.164s,
+real	0m5.475s
+user	0m4.512s
+sys	0m0.676s,
+real	0m5.261s
+user	0m4.440s
+sys	0m0.524s
+/home/jfb843/CloudComputing/compiled_data/mortality-merged.csv:,
+real	2m30.971s
+user	5m6.864s
+sys	0m4.324s,
+real	0m11.151s
+user	0m10.156s
+sys	0m0.976s,
+real	0m10.686s
+user	0m9.960s
+sys	0m0.708s
+/home/jfb843/CloudComputing/compiled_data/movies_metadata-merged.csv:,
+real	0m2.400s
+user	0m1.396s
+sys	0m0.064s,
+real	0m0.121s
+user	0m0.096s
+sys	0m0.024s,
+real	0m0.113s
+user	0m0.092s
+sys	0m0.020s
+/home/jfb843/CloudComputing/compiled_data/nyc-rolling-sales-merged.csv:,
+real	0m1.011s
+user	0m1.248s
+sys	0m0.044s,
+real	0m0.096s
+user	0m0.092s
+sys	0m0.000s,
+real	0m0.095s
+user	0m0.088s
+sys	0m0.004s
+/home/jfb843/CloudComputing/compiled_data/parking-citations-merged.csv:,
+real	2m17.647s
+user	4m52.808s
+sys	0m4.304s,
+real	0m16.411s
+user	0m11.624s
+sys	0m1.020s,
+real	0m12.807s
+user	0m12.056s
+sys	0m0.736s
+/home/jfb843/CloudComputing/compiled_data/player_data-merged.csv:,
+real	0m0.147s
+user	0m0.028s
+sys	0m0.000s,
+real	0m0.016s
+user	0m0.012s
+sys	0m0.000s,
+real	0m0.015s
+user	0m0.012s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/Reviews-merged.csv:,
+real	0m10.987s
+user	0m11.584s
+sys	0m0.780s,
+real	0m1.112s
+user	0m0.944s
+sys	0m0.164s,
+real	0m1.380s
+user	0m1.168s
+sys	0m0.164s
+/home/jfb843/CloudComputing/compiled_data/speakers_all-merged.csv:,
+real	0m0.114s
+user	0m0.052s
+sys	0m0.000s,
+real	0m0.014s
+user	0m0.012s
+sys	0m0.000s,
+real	0m0.014s
+user	0m0.012s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/UserAnimeList-merged.csv:,
+real	10m54.092s
+user	17m43.904s
+sys	0m26.528s,
+real	2m14.225s
+user	1m16.744s
+sys	0m4.904s,
+real	1m22.091s
+user	1m17.336s
+sys	0m3.648s
+/home/jfb843/CloudComputing/compiled_data/UserList-merged.csv:,
+real	0m2.543s
+user	0m4.080s
+sys	0m0.128s,
+real	0m0.424s
+user	0m0.412s
+sys	0m0.008s,
+real	0m0.348s
+user	0m0.336s
+sys	0m0.008s
+/home/jfb843/CloudComputing/compiled_data/users_cleaned-merged.csv:,
+real	0m0.991s
+user	0m1.156s
+sys	0m0.032s,
+real	0m0.140s
+user	0m0.136s
+sys	0m0.000s,
+real	0m0.137s
+user	0m0.132s
+sys	0m0.004s
+/home/jfb843/CloudComputing/compiled_data/users_filtered-merged.csv:,
+real	0m0.702s
+user	0m0.860s
+sys	0m0.036s,
+real	0m0.148s
+user	0m0.140s
+sys	0m0.004s,
+real	0m0.169s
+user	0m0.156s
+sys	0m0.012s
+/home/jfb843/CloudComputing/compiled_data/Video_Games_Sales_as_at_22_Dec_2016-merged.csv:,
+real	0m0.209s
+user	0m0.112s
+sys	0m0.004s,
+real	0m0.031s
+user	0m0.028s
+sys	0m0.000s,
+real	0m0.040s
+user	0m0.028s
+sys	0m0.000s
+/home/jfb843/CloudComputing/compiled_data/winemag-data-130k-v2-merged.csv:,
+real	0m2.241s
+user	0m1.696s
+sys	0m0.140s,
+real	0m0.262s
+user	0m0.212s
+sys	0m0.048s,
+real	0m0.234s
+user	0m0.200s
+sys	0m0.028s
