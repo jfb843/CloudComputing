@@ -19,7 +19,7 @@ Requirements:
 #### To Download Datasets
 Run the ```get_data.sh``` file:
 ```bash
-./run.sh
+./get_data.sh
 ```
 Output: 
 * datasets in  ```data/``` folder and ```compiled_data/``` folder
