@@ -17,7 +17,7 @@ Requirements:
 * [Kaggle-api](https://github.com/Kaggle/kaggle-api)
 
 #### To Download Datasets
-Run the ```run.sh``` file: [[ need to change file name to get_data.sh to clarify]]
+Run the ```get_data.sh``` file:
 ```bash
 ./run.sh
 ```
