@@ -6,11 +6,12 @@ files=( ${old_files[@]} ${new_files[@]} )
 
 #files=($(ls "data/"*.csv))
 
-rm "time_labels.log"
+#rm "time_labels.log"
 
 echo "${#files[@]}"
 
-for ((i=0;i<${#files[@]};i++)); do
+for ((i=99;i<${#files[@]};i++)); do
+	echo "${i} of ${#files[@]}"
 	# sort by 2nd column
 	echo "Sorting ${files[i]}..."
 	sort_time="$(time ( sort -k2 ${files[i]}) 2>&1 1>/dev/null )"
