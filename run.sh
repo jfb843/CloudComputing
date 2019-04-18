@@ -20,7 +20,7 @@ else
     echo "Compiled datasets already generated!"
 fi
 
-# Generate labels (time)
+# Generate command times and save to time_labels.log
 if [[ ! -f time_labels.log ]]; then
     echo "Running generate labels..."
     chmod u+x generate_labels.sh
