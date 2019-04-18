@@ -1,16 +1,4 @@
 #!/bin/bash
-#running files for compiled
-# Inputs:
-# 	generate_compiled_labels.sh
-# 	create_compiled_labels.py
-#
-#	compiled_mem_labels.log
-#	compiled_time_labels.log
-# Outputs:
-#	combined_feature_tbl.csv
-# If running create_compied_labels.py doesnt work at first you need to remove first 
-#	line ine compiled_mem_labels.log
-# compiled_models.py makes graphs
 
 # Download datasets
 if [[ ! -d data ]]; then
@@ -48,7 +36,7 @@ ls -l compiled_data/* > mem_labels.log
 echo "mem_labels.log generated!"
 
 # Create a table with file size and time labels
-echo "Creating table with file sizes and time labels...y"
+echo "Creating table with file sizes and time labels..."
 python3 create_labels.py
 echo "feature_tbl.csv generated!"
 
