@@ -32,6 +32,8 @@ Run the ```generate_scripts.py``` file:
 ```bash
 python generate_scripts.py
 ```
+Output: 
+* 100 scripts in ```/scripts``` folder
 
 #### To Build and Evaluate Linear Regression and Regression Tree Models
 Run the ```models.py``` file:
