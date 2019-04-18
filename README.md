@@ -14,7 +14,9 @@ Run the ```[something].sh``` file: [[ This file should set up Kaggle Environment
 ./[something].sh
 ```
 Requirements:
+* Google Cloud Dataproc
 * [Kaggle-api](https://github.com/Kaggle/kaggle-api)
+
 
 #### To Download Datasets
 Run the ```get_data.sh``` file:
