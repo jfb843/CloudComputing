@@ -26,7 +26,7 @@ for ((i=0;i<${#all_files[@]};i++)); do
 	done
 done
 
-concat the 20x_data files
+# concat the 20x_data files
 cat ~/CloudComputing/data/20*_data.csv > ~/CloudComputing/compiled_data/mortality-merged.csv
 
 # goal of 100 files
