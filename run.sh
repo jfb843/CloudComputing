@@ -34,12 +34,3 @@ fi
 echo "Determining file sizes..."
 ls -l compiled_data/* > mem_labels.log
 echo "mem_labels.log generated!"
-
-# Create a table with file size and time labels
-echo "Creating table with file sizes and time labels..."
-python3 create_labels.py
-echo "feature_tbl.csv generated!"
-
-echo "Making models..."
-python3 models.py
-echo "Model made!"
