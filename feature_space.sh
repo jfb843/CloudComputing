@@ -33,4 +33,4 @@ source generate_file_times.sh
 
 mv "time_labels.log" "output_files/time_labels.log"
 mv "feature_table.csv" "output_files/feature_table.csv"
-mv "file_time_table.csv" "file_time_table.csv"
+mv "file_time_table.csv" "output_files/file_time_table.csv"
