@@ -1,5 +1,8 @@
 #!/usr/bin/env bash
 
+# Written by Sharmila
+# Generate time labels for files to sort, find max, and find min
+
 new_files=(~/CloudComputing/compiled_data/*.csv)
 old_files=(~/CloudComputing/data/*.csv)
 files=( ${old_files[@]} ${new_files[@]} )
@@ -10,7 +13,7 @@ files=( ${old_files[@]} ${new_files[@]} )
 
 echo "${#files[@]}"
 
-for ((i=99;i<${#files[@]};i++)); do
+for ((i=0;i<${#files[@]};i++)); do
 	echo "${i} of ${#files[@]}"
 	# sort by 2nd column
 	echo "Sorting ${files[i]}..."
@@ -27,4 +30,5 @@ for ((i=99;i<${#files[@]};i++)); do
 	echo "${files[i]}: $sort_time $max_time $min_time" >> "time_labels.log"
 done
 
-python3 ltable.py
+# Helper function to convert log to csv
+python3 file_times_helper.py

@@ -9,31 +9,24 @@ Research Project
 Members: Amy He, Heather Han, Jennifer Baron, Sharmila Tamby 
 
 #### To Set Up Environment
-Run the ```[something].sh``` file: [[ This file should set up Kaggle Environment?]]
+Run the ```requirements.sh``` file: [[ This file should set up Kaggle Environment?]]
 ```bash
-./[something].sh
+./requierments.sh KAGGLE_USERNAME KAGGLE_KEY
 ```
+Note: This requires the user to register with Kaggle.com and download their respective API token from the "Accounts" page. The command line arguments and the username and key from the downloaded API token.
 Requirements:
 * Google Cloud Dataproc
 * [Kaggle-api](https://github.com/Kaggle/kaggle-api)
 
 
-#### To Download Datasets
+#### To Download Datasets and Gather File Information:
 Run the ```get_data.sh``` file:
 ```bash
 ./get_data.sh
 ```
 Output: 
 * datasets in  ```data/``` folder and ```compiled_data/``` folder
-
-#### To Generate File Information onto feature_table.csv [[ change feature_table.csv to file_info.csv]]
-Run the ```[something].sh``` file:  [[ this script should make size_rows_cols.log and finally feature_table.csv]]
-```bash
-./[something].sh
-```
-[[if are ADDING the command times to feature_table.csv, then you should put the code to do so in the same script as above.]]
-
-[[if you are making another file to record the sort, max, min times for each file, add a script here to do that. The output can be something like command_times.csv]]
+* file_info.csv file containing file feature information
 
 #### To Build Scripts
 Run the ```generate_scripts.py``` file:

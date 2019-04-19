@@ -21,13 +21,16 @@ else
 fi
 
 # Generate command times and save to time_labels.log
-if [[ ! -f time_labels.log ]]; then
-    echo "Running generate labels..."
-    chmod u+x generate_labels.sh
-    source generate_labels.sh
-    echo "Labels generated!"
+if [[ ! -f file_info.csv ]]; then
+    echo "Generating file info..."
+    chmod u+x feature_space.sh
+    source feature_space.sh
+    # echo "Running generate labels..."
+    # chmod u+x generate_file_times.sh
+    # source generate_file_times.sh
+    echo "File info generated!"
 else
-    echo "Labels already generated"
+    echo "File info already generated!"
 fi
 
 # Determine file sizes and save to mem_labels.log

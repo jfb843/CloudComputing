@@ -43,7 +43,7 @@ echo "${num_files}"
 # 	name=$(basename "${randomf}" .csv)
 # 	name_two=$(basename "${randomf_two}" .csv)
 # 	echo "randomly selected file ${randomf} and ${randomf_two}..."
-# 	python3 concat-cols.py ${randomf} ${randomf_two}
+# 	python3 generate_datasets_helper.py ${randomf} ${randomf_two}
 # 	# cat "${randomf}" "${randomf_two}" > ~/Documents/CloudComputing/data/${name}-${name_two}.csv
 # 	# remove excess rows and cols
 # 	#python3 shape-datasets.py ~/CloudComputing/data/${name}-${name_two}.csv
