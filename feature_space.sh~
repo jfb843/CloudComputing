@@ -1,10 +1,5 @@
 #!/usr/bin/env bash
 
-# Written by Sharmila
-# This file generates file_info.csv which contains all
-# file feature information including size, rows, cols
-# and command times for sort, max, min
-
 new_files=(~/CloudComputing/compiled_data/*.csv)
 old_files=(~/CloudComputing/data/*.csv)
 files=( ${old_files[@]} ${new_files[@]} )

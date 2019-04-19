@@ -1,5 +1,4 @@
 # Written by Sharmila
-# This file is called in generate_file_times.sh
 # Helper file to original script ./generate_file_times.sh
 # Parses through log file produced by generate_labels.sh to produce csv file
 

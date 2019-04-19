@@ -1,7 +1,3 @@
-# Written by Sharmila
-# This file is called in feature_space.sh
-# This file takens in log file and converts to csv file
-
 import csv
 import pandas as pd
 

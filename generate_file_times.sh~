@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
 # Written by Sharmila
-# This file is called in feature_space.sh
 # Generate time labels for files to sort, find max, and find min
 
 new_files=(~/CloudComputing/compiled_data/*.csv)

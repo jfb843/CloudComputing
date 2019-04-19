@@ -13,7 +13,7 @@ Run the ```requirements.sh``` file: [[ This file should set up Kaggle Environmen
 ```bash
 ./requierments.sh KAGGLE_USERNAME KAGGLE_KEY
 ```
-Note: This requires the user to register with Kaggle.com and download their respective API token from the "Accounts" page. The command line arguments and the username and key from the downloaded API token.
+Note: This requires the user to register with Kaggle.com and download their respective API token from the "Accounts" page. The command line arguments are the username and key from the downloaded API token.
 Requirements:
 * Google Cloud Dataproc
 * [Kaggle-api](https://github.com/Kaggle/kaggle-api)
