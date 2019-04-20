@@ -1,0 +1,400 @@
+/home/hhan16/CloudComputing/scripts/100_script.sh: 
+real	0m31.365s
+user	0m24.140s
+sys	0m1.008s
+/home/hhan16/CloudComputing/scripts/10_script.sh: 
+real	0m4.383s
+user	0m3.180s
+sys	0m0.184s
+/home/hhan16/CloudComputing/scripts/11_script.sh: 
+real	0m22.628s
+user	0m20.764s
+sys	0m0.496s
+/home/hhan16/CloudComputing/scripts/12_script.sh: 
+real	0m1.853s
+user	0m0.880s
+sys	0m0.048s
+/home/hhan16/CloudComputing/scripts/13_script.sh: 
+real	0m0.194s
+user	0m0.060s
+sys	0m0.004s
+/home/hhan16/CloudComputing/scripts/14_script.sh: 
+real	0m30.750s
+user	0m26.468s
+sys	0m0.412s
+/home/hhan16/CloudComputing/scripts/15_script.sh: 
+real	2m17.299s
+user	1m49.344s
+sys	0m2.468s
+/home/hhan16/CloudComputing/scripts/16_script.sh: 
+real	0m15.775s
+user	0m11.936s
+sys	0m0.340s
+/home/hhan16/CloudComputing/scripts/17_script.sh: 
+real	5m42.513s
+user	4m26.656s
+sys	0m6.436s
+/home/hhan16/CloudComputing/scripts/18_script.sh: 
+real	8m58.496s
+user	8m17.528s
+sys	0m5.292s
+/home/hhan16/CloudComputing/scripts/19_script.sh: 
+real	4m32.031s
+user	3m39.492s
+sys	0m4.472s
+/home/hhan16/CloudComputing/scripts/1_script.sh: 
+real	1m32.955s
+user	1m14.480s
+sys	0m1.432s
+/home/hhan16/CloudComputing/scripts/20_script.sh: 
+real	0m55.228s
+user	0m38.840s
+sys	0m1.628s
+/home/hhan16/CloudComputing/scripts/21_script.sh: 
+real	0m0.051s
+user	0m0.044s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/22_script.sh: 
+real	0m42.810s
+user	0m28.036s
+sys	0m1.008s
+/home/hhan16/CloudComputing/scripts/23_script.sh: 
+real	1m12.409s
+user	0m14.428s
+sys	0m3.336s
+/home/hhan16/CloudComputing/scripts/24_script.sh: 
+real	2m15.212s
+user	1m42.236s
+sys	0m3.028s
+/home/hhan16/CloudComputing/scripts/25_script.sh: 
+real	1m40.660s
+user	1m21.612s
+sys	0m1.624s
+/home/hhan16/CloudComputing/scripts/26_script.sh: 
+real	0m3.392s
+user	0m3.276s
+sys	0m0.048s
+/home/hhan16/CloudComputing/scripts/27_script.sh: 
+real	0m14.131s
+user	0m8.892s
+sys	0m0.344s
+/home/hhan16/CloudComputing/scripts/28_script.sh: 
+real	0m1.125s
+user	0m0.048s
+sys	0m0.036s
+/home/hhan16/CloudComputing/scripts/29_script.sh: 
+real	0m1.712s
+user	0m1.024s
+sys	0m0.044s
+/home/hhan16/CloudComputing/scripts/2_script.sh: 
+real	0m56.532s
+user	0m39.928s
+sys	0m1.240s
+/home/hhan16/CloudComputing/scripts/30_script.sh: 
+real	0m0.303s
+user	0m0.076s
+sys	0m0.008s
+/home/hhan16/CloudComputing/scripts/31_script.sh: 
+real	2m52.086s
+user	2m8.216s
+sys	0m2.212s
+/home/hhan16/CloudComputing/scripts/32_script.sh: 
+real	0m0.270s
+user	0m0.152s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/33_script.sh: 
+real	0m20.344s
+user	0m11.488s
+sys	0m0.436s
+/home/hhan16/CloudComputing/scripts/34_script.sh: 
+real	1m52.766s
+user	1m25.244s
+sys	0m2.092s
+/home/hhan16/CloudComputing/scripts/35_script.sh: 
+real	2m14.187s
+user	1m24.912s
+sys	0m2.928s
+/home/hhan16/CloudComputing/scripts/36_script.sh: 
+real	1m2.956s
+user	0m44.672s
+sys	0m1.592s
+/home/hhan16/CloudComputing/scripts/37_script.sh: 
+real	0m0.364s
+user	0m0.068s
+sys	0m0.012s
+/home/hhan16/CloudComputing/scripts/38_script.sh: 
+real	0m3.745s
+user	0m0.892s
+sys	0m0.108s
+/home/hhan16/CloudComputing/scripts/39_script.sh: 
+real	0m1.025s
+user	0m0.524s
+sys	0m0.036s
+/home/hhan16/CloudComputing/scripts/3_script.sh: 
+real	1m43.649s
+user	0m45.324s
+sys	0m3.396s
+/home/hhan16/CloudComputing/scripts/40_script.sh: 
+real	0m0.289s
+user	0m0.128s
+sys	0m0.012s
+/home/hhan16/CloudComputing/scripts/41_script.sh: 
+real	0m0.570s
+user	0m0.412s
+sys	0m0.008s
+/home/hhan16/CloudComputing/scripts/42_script.sh: 
+real	0m18.083s
+user	0m7.740s
+sys	0m0.636s
+/home/hhan16/CloudComputing/scripts/43_script.sh: 
+real	0m0.104s
+user	0m0.008s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/44_script.sh: 
+real	0m17.521s
+user	0m7.272s
+sys	0m0.516s
+/home/hhan16/CloudComputing/scripts/45_script.sh: 
+real	0m0.235s
+user	0m0.036s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/46_script.sh: 
+real	0m16.671s
+user	0m11.548s
+sys	0m0.300s
+/home/hhan16/CloudComputing/scripts/47_script.sh: 
+real	0m1.172s
+user	0m0.944s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/48_script.sh: 
+real	1m11.650s
+user	0m53.852s
+sys	0m1.636s
+/home/hhan16/CloudComputing/scripts/49_script.sh: 
+real	0m0.342s
+user	0m0.036s
+sys	0m0.012s
+/home/hhan16/CloudComputing/scripts/4_script.sh: 
+real	3m7.013s
+user	2m27.584s
+sys	0m3.124s
+/home/hhan16/CloudComputing/scripts/50_script.sh: 
+real	0m0.143s
+user	0m0.012s
+sys	0m0.004s
+/home/hhan16/CloudComputing/scripts/51_script.sh: 
+real	1m14.524s
+user	1m1.208s
+sys	0m1.136s
+/home/hhan16/CloudComputing/scripts/52_script.sh: 
+real	0m0.510s
+user	0m0.328s
+sys	0m0.004s
+/home/hhan16/CloudComputing/scripts/53_script.sh: 
+real	0m0.243s
+user	0m0.068s
+sys	0m0.004s
+/home/hhan16/CloudComputing/scripts/54_script.sh: 
+real	9m1.494s
+user	4m9.820s
+sys	0m19.836s
+/home/hhan16/CloudComputing/scripts/55_script.sh: 
+real	0m53.233s
+user	0m45.012s
+sys	0m0.768s
+/home/hhan16/CloudComputing/scripts/56_script.sh: 
+real	0m4.507s
+user	0m2.856s
+sys	0m0.088s
+/home/hhan16/CloudComputing/scripts/57_script.sh: 
+real	0m30.847s
+user	0m21.420s
+sys	0m0.680s
+/home/hhan16/CloudComputing/scripts/58_script.sh: 
+real	0m0.270s
+user	0m0.072s
+sys	0m0.012s
+/home/hhan16/CloudComputing/scripts/59_script.sh: 
+real	0m0.489s
+user	0m0.232s
+sys	0m0.028s
+/home/hhan16/CloudComputing/scripts/5_script.sh:
+real	0m0.0019s
+user	0m0.000s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/60_script.sh: 
+real	0m0.815s
+user	0m0.516s
+sys	0m0.016s
+/home/hhan16/CloudComputing/scripts/61_script.sh: 
+real	0m0.079s
+user	0m0.020s
+sys	0m0.004s
+/home/hhan16/CloudComputing/scripts/62_script.sh: 
+real	0m0.074s
+user	0m0.004s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/63_script.sh: 
+real	0m1.458s
+user	0m1.112s
+sys	0m0.048s
+/home/hhan16/CloudComputing/scripts/64_script.sh: 
+real	0m33.519s
+user	0m21.888s
+sys	0m0.888s
+/home/hhan16/CloudComputing/scripts/65_script.sh: 
+real	24m13.450s
+user	21m29.696s
+sys	0m16.368s
+/home/hhan16/CloudComputing/scripts/66_script.sh: 
+real	0m0.111s
+user	0m0.008s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/67_script.sh: 
+real	0m0.797s
+user	0m0.304s
+sys	0m0.020s
+/home/hhan16/CloudComputing/scripts/68_script.sh: 
+real	0m0.244s
+user	0m0.140s
+sys	0m0.008s
+/home/hhan16/CloudComputing/scripts/69_script.sh: 
+real	0m0.770s
+user	0m0.184s
+sys	0m0.032s
+/home/hhan16/CloudComputing/scripts/6_script.sh: 
+real	0m56.067s
+user	0m44.888s
+sys	0m0.832s
+/home/hhan16/CloudComputing/scripts/70_script.sh: 
+real	0m13.182s
+user	0m8.508s
+sys	0m0.332s
+/home/hhan16/CloudComputing/scripts/71_script.sh: 
+real	0m23.777s
+user	0m14.316s
+sys	0m0.948s
+/home/hhan16/CloudComputing/scripts/72_script.sh: 
+real	0m0.102s
+user	0m0.020s
+sys	0m0.004s
+/home/hhan16/CloudComputing/scripts/73_script.sh: 
+real	0m1.010s
+user	0m0.152s
+sys	0m0.012s
+/home/hhan16/CloudComputing/scripts/74_script.sh: 
+real	0m0.026s
+user	0m0.020s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/75_script.sh: 
+real	0m0.221s
+user	0m0.212s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/76_script.sh: 
+real	0m4.859s
+user	0m2.304s
+sys	0m0.112s
+/home/hhan16/CloudComputing/scripts/77_script.sh: 
+real	0m1.619s
+user	0m0.144s
+sys	0m0.036s
+/home/hhan16/CloudComputing/scripts/78_script.sh: 
+real	0m37.513s
+user	0m26.256s
+sys	0m0.744s
+/home/hhan16/CloudComputing/scripts/79_script.sh: 
+real	0m0.555s
+user	0m0.420s
+sys	0m0.008s
+/home/hhan16/CloudComputing/scripts/7_script.sh: 
+real	0m0.291s
+user	0m0.092s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/80_script.sh: 
+real	0m0.005s
+user	0m0.000s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/81_script.sh: 
+real	0m4.110s
+user	0m2.720s
+sys	0m0.040s
+/home/hhan16/CloudComputing/scripts/82_script.sh: 
+real	0m31.595s
+user	0m24.352s
+sys	0m0.584s
+/home/hhan16/CloudComputing/scripts/83_script.sh: 
+real	0m6.569s
+user	0m6.328s
+sys	0m0.144s
+/home/hhan16/CloudComputing/scripts/84_script.sh: 
+real	0m55.589s
+user	0m37.004s
+sys	0m1.028s
+/home/hhan16/CloudComputing/scripts/85_script.sh: 
+real	0m9.287s
+user	0m8.112s
+sys	0m0.196s
+/home/hhan16/CloudComputing/scripts/86_script.sh: 
+real	0m12.206s
+user	0m2.864s
+sys	0m0.308s
+/home/hhan16/CloudComputing/scripts/87_script.sh: 
+real	0m31.887s
+user	0m24.280s
+sys	0m0.908s
+/home/hhan16/CloudComputing/scripts/88_script.sh: 
+real	1m57.192s
+user	1m23.800s
+sys	0m1.968s
+/home/hhan16/CloudComputing/scripts/89_script.sh: 
+real	0m7.661s
+user	0m2.236s
+sys	0m0.248s
+/home/hhan16/CloudComputing/scripts/8_script.sh: 
+real	2m34.459s
+user	2m6.032s
+sys	0m1.972s
+/home/hhan16/CloudComputing/scripts/90_script.sh: 
+real	0m0.091s
+user	0m0.012s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/91_script.sh: 
+real	0m2.402s
+user	0m0.468s
+sys	0m0.080s
+/home/hhan16/CloudComputing/scripts/92_script.sh: 
+real	0m0.003s
+user	0m0.000s
+sys	0m0.000s
+/home/hhan16/CloudComputing/scripts/93_script.sh: 
+real	0m0.049s
+user	0m0.040s
+sys	0m0.004s
+/home/hhan16/CloudComputing/scripts/94_script.sh: 
+real	0m13.494s
+user	0m8.688s
+sys	0m0.336s
+/home/hhan16/CloudComputing/scripts/95_script.sh: 
+real	0m33.080s
+user	0m25.776s
+sys	0m1.108s
+/home/hhan16/CloudComputing/scripts/96_script.sh: 
+real	1m11.227s
+user	0m53.208s
+sys	0m1.596s
+/home/hhan16/CloudComputing/scripts/97_script.sh: 
+real	1m39.654s
+user	1m16.472s
+sys	0m1.836s
+/home/hhan16/CloudComputing/scripts/98_script.sh: 
+real	0m11.460s
+user	0m7.756s
+sys	0m0.220s
+/home/hhan16/CloudComputing/scripts/99_script.sh: 
+real	0m1.146s
+user	0m0.588s
+sys	0m0.016s
+/home/hhan16/CloudComputing/scripts/9_script.sh: 
+real	1m3.225s
+user	0m45.112s
+sys	0m1.324s
