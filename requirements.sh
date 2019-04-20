@@ -9,7 +9,6 @@
 
 sudo apt install python3-pip
 
-pip3 install kaggle-cli
 pip3 install kaggle
 pip3 install pandas
 
