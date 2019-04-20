@@ -28,13 +28,15 @@ def main():
 
     # Linear regression model
     print("Linear Regression:")
-    train_perc_error, test_perc_error = lin_regression(X_train, y_train, X_test, y_test)
+    train_error, train_perc_error, test_error, test_perc_error = lin_regression(X_train, y_train, X_test, y_test)
     plot(train_size, train_perc_error, test_size, test_perc_error, 'Linear Regression')
+    hist_plot(train_error, test_error, 'Linear Regression')
                  
     # Random forest model
     print("Random Forest:")
-    train_perc_error, test_perc_error = random_forest(X_train, y_train, X_test, y_test)
+    train_error, train_perc_error, test_error, test_perc_error = random_forest(X_train, y_train, X_test, y_test)
     plot(train_size, train_perc_error, test_size, test_perc_error, 'Random Forest')
+    hist_plot(train_error, test_error, 'Random Forest')
 
 
 def lin_regression(X_train, y_train, X_test, y_test):
@@ -43,15 +45,17 @@ def lin_regression(X_train, y_train, X_test, y_test):
     model.fit(X_train, y_train)
 
     yhat_train = model.predict(X_train)
-    train_perc_error = abs(yhat_train - y_train)/ (y_train)
+    train_abs_error = abs(yhat_train - y_train)
+    train_perc_error = train_abs_error / (y_train)
     print('Train Accuracy:')
     print_accuracies(X_train.index, train_perc_error)
 
     yhat_test = model.predict(X_test)
-    test_perc_error = abs(yhat_test - y_test) / (y_test)                         
+    test_abs_error = abs(yhat_test - y_test)
+    test_perc_error = test_abs_error / (y_test)                         
     print('Test Accuracy:')
     print_accuracies(X_test.index, test_perc_error)
-    return train_perc_error, test_perc_error
+    return train_abs_error, train_perc_error, test_abs_error, test_perc_error
 
 
 def random_forest(X_train, y_train, X_test, y_test):
@@ -61,15 +65,17 @@ def random_forest(X_train, y_train, X_test, y_test):
     model.fit(X_train, y_train)
 
     yhat_train = model.predict(X_train)
-    train_perc_error = abs(yhat_train - y_train)/ (y_train)
+    train_abs_error = abs(yhat_train - y_train)
+    train_perc_error = train_abs_error / (y_train)
     print('Train Accuracy:')
     print_accuracies(X_train.index, train_perc_error)
 
     yhat_test = model.predict(X_test)
-    test_perc_error = abs(yhat_test - y_test) / (y_test)                         
+    test_abs_error = abs(yhat_test - y_test)
+    test_perc_error = test_abs_error / (y_test)                                   
     print('Test Accuracy:')
     print_accuracies(X_test.index, test_perc_error)
-    return train_perc_error, test_perc_error
+    return train_abs_error, train_perc_error, test_abs_error, test_perc_error
 
 
 def plot(train_size, train_perc_error, test_size, test_perc_error, model_name):
@@ -89,6 +95,25 @@ def plot(train_size, train_perc_error, test_size, test_perc_error, model_name):
     plt.suptitle(model_name + ' Percent Error for Varying File Sizes')
     plot_name = model_name.split()
     plt.savefig(plot_name[0][0] + plot_name[1][0] + '.png')
+
+
+def hist_plot(train_error, test_error, model_name):
+    """ Helper function to create a histogram of absolute errors """
+    fig, axs = plt.subplots(2, 1)
+    fig.subplots_adjust(hspace=.5)
+    axs[0].hist(train_error)
+    axs[0].set_title('Training Error')
+    axs[0].set_xlabel('Absolute Error')
+    axs[0].set_ylabel('Counts')
+
+    axs[1].hist(test_error)
+    axs[1].set_title('Testing Error')
+    axs[1].set_xlabel('Absolute Error')
+    axs[1].set_ylabel('Counts')
+
+    plt.suptitle(model_name + ' Histogram of Absolute Errors')
+    plot_name = model_name.split()
+    plt.savefig(plot_name[0][0] + plot_name[1][0] + '_hist.png')
 
 
 def print_accuracies(ids, perc_error):
