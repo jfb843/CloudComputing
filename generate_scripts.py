@@ -51,7 +51,7 @@ while script_count != 100:
 			fil = random.choice(train_files) #random train file
 		else: 
 			fil = random.choice(test_tiles) #random test file
-		col = str(random.choice(range(0, file_info[fil][2]))) #random column 
+		col = str(random.choice(range(1, file_info[fil][2]))) #random column 
 		
 		#Update script info
 		og_info = script_info[command]

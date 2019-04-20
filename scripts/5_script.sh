@@ -1,1 +1,1 @@
-sort --field-separator="," --key=0 data/Iris.csv
+sort --field-separator="," --key=2 data/Iris.csv
