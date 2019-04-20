@@ -9,9 +9,9 @@ next(info)
 for line in info:
 	line = line.split(",")
 	fil = line[0]
-	size = int(line[1])
-	rows = int(line[2])
-	cols = int(line[3])
+	size = int(line[2])
+	rows = int(line[3])
+	cols = int(line[4])
 	file_info[fil] = (size, rows, cols)
 info.close()
 
