@@ -32,8 +32,3 @@ if [[ ! -f file_info.csv ]]; then
 else
     echo "File info already generated!"
 fi
-
-# Determine file sizes and save to mem_labels.log
-echo "Determining file sizes..."
-ls -l compiled_data/* > mem_labels.log
-echo "mem_labels.log generated!"

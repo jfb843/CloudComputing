@@ -26,7 +26,7 @@ for ((i=0;i<${#files[@]};i++)); do
 done
 
 # convert log to csv file
-python3 features_space_helper.py
+python3 feature_space_helper.py
 
 # Move intermediate files to different folder to avoid clutter in main directory
 mkdir -p "output_files/"
