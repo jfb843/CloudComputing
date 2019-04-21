@@ -1,7 +1,10 @@
 #!/usr/bin/env bash
-# Downloads all datasets from Kaggle
+# Author: Heather, Sharmila (large files)
+# Downloads all datasets from Kaggle, unzip, and move to 
 
-mkdir "data/"
+rm -r data
+mkdir data
+cd data
 
 # define datasets and the desired csv files
 large_ds=(
@@ -119,6 +122,9 @@ small_ds_f=(
     "indian_liver_patient.csv"
 )
 
+medium_ds=()
+medium_ds_f=()
+
 # combine all sizes into one array
 all_ds=( ${medium_ds[@]} ${small_ds[@]} )
 all_ds_f=( ${medium_ds_f[@]} ${small_ds_f[@]} )
@@ -132,6 +138,5 @@ done
 # unzip and remove all .zip files
 unzip \*.zip
 rm *.zip
-mv *.csv "data/"
-
-chmod u+rw "data/"*.csv
+chmod u+rw *.csv
+cd -

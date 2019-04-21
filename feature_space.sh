@@ -9,7 +9,7 @@ new_files=(~/CloudComputing/compiled_data/*.csv)
 old_files=(~/CloudComputing/data/*.csv)
 files=( ${old_files[@]} ${new_files[@]} )
 
-rm "size_rows_cols.log"
+rm "output_files/size_rows_cols.log"
 
 # get file size, num rows, num cols
 for ((i=0;i<${#files[@]};i++)); do
@@ -26,16 +26,17 @@ for ((i=0;i<${#files[@]};i++)); do
 done
 
 # convert log to csv file
-python3 feature_space_helper.py
+python3 src/feature_space_helper.py
 
 # Move intermediate files to different folder to avoid clutter in main directory
 mkdir -p "output_files/"
-mv "size_rows_cols.log" "output_files/size_rows_cols.log"
+mkdir -p "output_files/temp/"
+mv "size_rows_cols.log" "output_files/temp/size_rows_cols.log"
 
 # generate the file names (sort time, max time, min time)
-chmod u+x generate_file_times.sh
-source generate_file_times.sh
+chmod u+x src/generate_file_times.sh
+source src/generate_file_times.sh
 
-mv "time_labels.log" "output_files/time_labels.log"
+mv "time_labels.log" "output_files/temp/time_labels.log"
+mv "file_time_table.csv" "output_files/temp/file_time_table.csv"
 mv "feature_table.csv" "output_files/feature_table.csv"
-mv "file_time_table.csv" "output_files/file_time_table.csv"

@@ -32,4 +32,4 @@ for ((i=0;i<${#files[@]};i++)); do
 done
 
 # Helper function to convert log to csv
-python3 file_times_helper.py
+python3 src/file_times_helper.py

@@ -1,10 +1,18 @@
+# Author: Amy
+#
+# This file reads in information on all current data files and 
+# generates 100 scripts with random combinations of commands
+#
+# Output: model/script_info.csv
+
 import random
+
 
 random.seed(10)
 
 #Read in file info and create dictionary
 file_info = {} #Dictionary to hold file information
-info = open("file_info.csv", "r") 
+info = open("output_files/file_info.csv", "r") 
 next(info)
 for line in info:
 	line = line.split(",")
@@ -30,7 +38,7 @@ commands = ["sort", "min", "max"] #, "grep", "sum"]
 
 #Genreate 70 train scripts and 30 test scripts
 script_info = {}
-info = open("script_info.csv", "w")
+info = open("model/script_info.csv", "w")
 info.write("script_id, sort_num, sort_size, sort_rows, min_num, min_size, min_rows, max_num, max_size, max_rows, total_size\n")
 script_count = 0
 while script_count != 100:
