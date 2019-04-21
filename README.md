@@ -20,7 +20,14 @@ Note: This requires the user to register with Kaggle.com and download their resp
 #### Repository Structure
 Information and figures for the data files used are in the ```data_exploration``` folder. Output files that were generated in the process of creating the feature space for the machine learning models are in located in the ```output_files``` directory. All other direct input and output for the ML models, and the code to build the machine learning models are located in the ```model``` folder. 
 
-### 1) Download Datasets
+### Running the pipeline
+The entire pipeline can be run through execution of ```run.sh``` as follows
+```bash
+./run.sh
+```
+Alternatively, each step of the pipeline can be run separately using the steps outlined below.
+
+### 1) Download and Generate Combined Datasets
 Run the ```get_data.sh``` script as follows
 ```bash
 ./get_data.sh
@@ -32,6 +39,8 @@ Output:
 
 
 ### 2) Gather File Information for All Generated Datasets
+Create the feature space for the machine learning models.
+
 Run the ```feature_space.sh``` file:
 ```bash
 ./feature_space.sh
@@ -45,6 +54,8 @@ Output:
 
 
 ### 3) Randomly Generate Scripts
+Create the samples for the machine learning models.
+
 Run the ```generate_scripts.py``` file:
 ```bash
 python3 generate_scripts.py
@@ -56,6 +67,8 @@ Output:
 
 
 ### 4) Execute and Time Generated Scripts
+Create the label space for the machine learning models.
+
 Run the ```generate_script_times.sh``` file:
 ```bash
 ./generate_script_times.sh
