@@ -73,7 +73,10 @@ Run the ```generate_script_times.sh``` file:
 ```bash
 ./generate_script_times.sh
 ```
-Alternatively, can submit a job to hadoop using the ```generateScriptTimes.jar``` file
+Alternatively, can submit a job to hadoop using the ```generateScriptTimes.jar``` file using the following command format:
+```bash
+gcloud dataproc jobs submit hadoop --cluster <cluster-name> --jar file:///CloudComputing/generateScriptTimes.jar
+```
 
 Output:
 * ```script_labels.log``` containing runtimes for all scripts (temporary file)
