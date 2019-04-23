@@ -67,12 +67,13 @@ Output:
 
 
 ### 4) Execute and Time Generated Scripts
-Create the label space for the machine learning models.
+Create the label space for the machine learning models (runtime of all scripts)
 
 Run the ```generate_script_times.sh``` file:
 ```bash
 ./generate_script_times.sh
 ```
+Alternatively, can submit a job to hadoop using the ```generateScriptTimes.jar``` file
 
 Output:
 * ```script_labels.log``` containing runtimes for all scripts (temporary file)
