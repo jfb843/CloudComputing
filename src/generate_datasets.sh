@@ -3,8 +3,8 @@
 # Written by Sharmila
 # This script generates compiled datasets from original Kaggle data in data/ folder
 
-rm -r "~/CloudComputing/compiled_data/"
-mkdir "~/CloudComputing/compiled_data/"
+rm -r compiled_data/
+mkdir compiled_data/
 
 # all_files=$(find ~/CloudComputing/data/*.csv -type f -size -2000000c)
 all_files=(~/CloudComputing/data/*.csv)
