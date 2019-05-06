@@ -122,9 +122,6 @@ small_ds_f=(
     "indian_liver_patient.csv"
 )
 
-medium_ds=()
-medium_ds_f=()
-
 # combine all sizes into one array
 all_ds=( ${medium_ds[@]} ${small_ds[@]} )
 all_ds_f=( ${medium_ds_f[@]} ${small_ds_f[@]} )
