@@ -34,8 +34,8 @@ mkdir -p "output_files/temp/"
 mv "size_rows_cols.log" "output_files/temp/size_rows_cols.log"
 
 # generate the file names (sort time, max time, min time)
-chmod u+x src/generate_file_times.sh
-source src/generate_file_times.sh
+# chmod u+x src/generate_file_times.sh
+# source src/generate_file_times.sh
 
 mv "time_labels.log" "output_files/temp/time_labels.log"
 mv "file_time_table.csv" "output_files/temp/file_time_table.csv"
