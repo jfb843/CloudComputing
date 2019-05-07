@@ -9,8 +9,8 @@
 
 sudo apt install python3-pip
 
-pip3 install kaggle
-pip3 install pandas
+sudo pip3 install kaggle
+sudo pip3 install pandas
 
 # username and key should be COMMAND LINE parameters
 export KAGGLE_USERNAME=$1

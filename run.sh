@@ -10,11 +10,16 @@ source get_data.sh
 source feature_space.sh
 
 # 3) randomly generate scripts (create samples for the ML model)
-python3 generate_scripts.py
+read -p "Do you want to generate new scripts (default is no - to use existing scripts)? (y/n)" yn
+	case $yn in
+		yes|Yes|y|Y ) python3 generate_scripts.py;;
+		no|No|n|N )	echo "using exisitng scripts in scripts/";;
+		* ) echo "invalid";;
+	esac
 
 # 4) execute and time generated scripts
-read -p "Synchronous or Asynchronous jobs? " sync
-	case $sync in
+read -p "Do you want to run scripts synchronously or asynchronously (sync/async)? " method
+	case $method in
 		# 4a) sequential method
 		sync|Sync|synchronous|Synchronous ) source generate_script_times.sh;;
 		# 4b) update src/sample.java and src/sample.mf with user-specific paths and 
