@@ -1,5 +1,7 @@
 # ignore all data files
 #*.csv
-#data
+data/
+compiled_data/
+other/
 
 .DS_Store
