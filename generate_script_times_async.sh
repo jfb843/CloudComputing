@@ -16,20 +16,18 @@ path="file:///home/hhan16/CloudComputing/jars/"
 
 
 # ====== ACTUAL CODE STARTS HERE =====
-rm runtimes_async.log
+rm model/runtimes_async.log
 
 jar_files=()
-ids=( "100" "10" )
-for id in "${ids[@]}"; do
-	jar_files=( ${jar_files[@]} $path"script"$id".jar")
+for ((i=1;i<101;i++)); do
+	jar_files=( ${jar_files[@]} $path"script"$i".jar")
 done
 
 # 20 iterations of groups of asynchronous jobs
-for ((i=0; i<2;i++)); do
+for ((i=0;i<2;i++)); do
 	# select random number (in range 5-20) of scripts for the iter
-	# num_scripts=`shuf -i 5-20 -n 1`
-	num_scripts=`shuf -i 1-3 -n 1`
-	group_id=$i'_'$num_scripts
+	num_scripts=`shuf -i 5-20 -n 1`
+	group_id=$i'-'$num_scripts
 
 	job_ids=()  # id of hadoop job
 	indices=()  # index for script labels
@@ -40,8 +38,8 @@ for ((i=0; i<2;i++)); do
 		rand=$[$RANDOM % ${#jar_files[@]}]
 		jar=${jar_files[$rand]}
 
-		# generate names 
-		index=$group_id'-'$s
+		# generate names #iter-#async-script_id
+		index=$group_id'-'$(( rand + 1 ))
 		indices=( ${indices[@]} $index )
 
 		submit=`gcloud dataproc jobs submit hadoop --project $project --cluster $cluster --region $region --jar $jar --async`
