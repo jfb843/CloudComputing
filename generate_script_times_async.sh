@@ -9,8 +9,8 @@
 
 # ===== USER DEFINED: define cluster id and project id =====
 project='cloud-computing-236014'
-cluster='cloud'
-region='us-east1'
+cluster='cloud2'
+region='global'
 # define correct cluster filepath to jar files
 path="file:///home/hhan16/CloudComputing/jars/"
 
@@ -24,7 +24,7 @@ for ((i=1;i<101;i++)); do
 done
 
 # 20 iterations of groups of asynchronous jobs
-for ((i=0;i<2;i++)); do
+for ((i=0;i<20;i++)); do
 	# select random number (in range 5-20) of scripts for the iter
 	num_scripts=`shuf -i 5-20 -n 1`
 	group_id=$i'-'$num_scripts
