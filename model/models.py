@@ -12,6 +12,8 @@ import matplotlib.pyplot as plt
 
 
 def main():
+    split_method = 'ids'
+
     # read in data and use all except the 'time' column as features
     data_file = 'script_feature_labels.csv'
     cols = pd.read_csv(data_file, nrows=1).columns
@@ -24,11 +26,29 @@ def main():
     # X_train, X_test = X[train_index], X[test_index]
     # y_train, y_test = y[train_index], y[test_index]
 
-    # Randomly split the dataset into train and test (70:30 for train:test)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=5) 
-    y_train = np.ravel(y_train); y_test = np.ravel(y_test)  # reshape to 1d array
-    train_size = np.array(X_train[' total_size'])
-    test_size = np.array(X_test[' total_size'])
+    if split_method is 'ids':
+        # Split using script ids (scripts 1-70 used train datasets, 70-100 used test datasets)
+        split = 70
+        scripts = np.array([int(X.index.str.split('-')[i][2]) for i in range(X.shape[0])])
+        train_idx = np.where(scripts <= split)
+        test_idx = np.where(scripts > split)
+        # define train and test sets
+        X_train = X.iloc[train_idx]
+        X_test = X.iloc[test_idx]
+        y_train = np.ravel(y.iloc[train_idx])
+        y_test = np.ravel(y.iloc[test_idx])
+        # get sizes for plotting
+        train_size = np.array(X_train[' total_size'])
+        test_size = np.array(X_test[' total_size'])
+        print("Train size:", X_train.shape, X_train.shape[0]/X.shape[0])
+        print("Test size:", X_test.shape, X_test.shape[0]/X.shape[0])
+
+    else:
+        # Randomly split the dataset into train and test (70:30 for train:test)
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=5) 
+        y_train = np.ravel(y_train); y_test = np.ravel(y_test)  # reshape to 1d array
+        train_size = np.array(X_train[' total_size'])
+        test_size = np.array(X_test[' total_size'])
 
     # Linear regression model
     print("Linear Regression:")
