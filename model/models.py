@@ -1,9 +1,13 @@
+# Author: Heather and Amy
+
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import KFold
 from sklearn.linear_model import LinearRegression
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.model_selection import train_test_split
+import matplotlib
+matplotlib.use('PS')
 import matplotlib.pyplot as plt
 
 
@@ -120,7 +124,7 @@ def print_accuracies(ids, perc_error):
     """ Helper function to print file ids and percent errors """
     print('id\tperc_error')
     for i in range(len(ids)):
-        print('%d\t%f' %(ids[i],perc_error[i]))
+        print('%s\t%f' %(str(ids[i]),perc_error[i]))
 
 
 if __name__ == '__main__':

@@ -69,6 +69,7 @@ def asynchronous():
 	# create new df for features and labels
 	columns = [*script_info_df.columns, 'async_num', 'time']
 	df = pd.DataFrame.from_dict(runtimes, orient='index', columns=columns)
+	df.index.name = 'script_id'
 	df.to_csv('script_feature_labels.csv')
 
 
