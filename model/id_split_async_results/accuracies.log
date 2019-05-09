@@ -2,6 +2,7 @@ Train size: (91, 14) 0.7398373983739838
 Test size: (32, 14) 0.2601626016260163
 Linear Regression:
 Train Accuracy:
+Average Absolute Error 37.2594
 id	perc_error
 1-3-50	7.659811
 1-3-44	4.697098
@@ -95,6 +96,7 @@ id	perc_error
 24-7-34	10.994868
 25-4-70	0.624205
 Test Accuracy:
+Average Absolute Error 63.2749
 id	perc_error
 4-5-98	0.646251
 4-5-74	0.674737
@@ -130,6 +132,7 @@ id	perc_error
 25-4-87	3.254391
 Random Forest:
 Train Accuracy:
+Average Absolute Error 17.6597
 id	perc_error
 1-3-50	0.735426
 1-3-44	0.493961
@@ -223,6 +226,7 @@ id	perc_error
 24-7-34	7.182744
 25-4-70	0.036901
 Test Accuracy:
+Average Absolute Error 45.5713
 id	perc_error
 4-5-98	0.342870
 4-5-74	0.553208
