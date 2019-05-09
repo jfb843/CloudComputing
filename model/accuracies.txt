@@ -1,0 +1,55 @@
+***************************************
+Average Absolute Errors (Random Split)
+
+===== Train test split by script ids (per script) =====
+
+Progressive:
+- Linear Regression:
+	Train Average Absolute Error 37.2594
+	Test Average Absolute Error 63.2749
+- Random Forest:
+	Train Average Absolute Error 17.6597
+	Test Average Absolute Error 45.5713
+
+Non-Progressive:
+- Linear Regression:
+	Test Average Absolute Error 46.5804
+- Random Forest:
+	Test Average Absolute Error 43.2588
+
+===== Train test split by script ids (per batch) =====
+
+Non-Progressive:
+- Linear Regression:
+	Test Average Absolute Error 95.7485
+- Random Forest:
+	Test Average Absolute Error 88.9209
+
+
+***************************************
+Average Absolute Errors (ID Split)
+
+===== Train test split by script ids (per script) =====
+
+Progressive:
+- Linear Regression:
+	Train Average Absolute Error 37.2594
+	Test Average Absolute Error 63.2749
+- Random Forest:
+	Train Average Absolute Error 17.6597
+	Test Average Absolute Error 45.5713
+
+Non-Progressive:
+- Linear Regression:
+	Test Average Absolute Error 62.7292
+- Random Forest:
+	Test Average Absolute Error 47.3727
+
+===== Train test split by script ids (per batch) =====
+
+Non-Progressive:
+- Linear Regression:
+	Test Average Absolute Error 100.3668
+- Random Forest:
+	Test Average Absolute Error 75.7964
+

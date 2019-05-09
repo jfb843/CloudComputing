@@ -26,10 +26,8 @@ def main():
     # if asynchronous, also generate non-progressive equivalent
     if asynchronous:
         X_np, y_np = generate_non_progressive(X, y, method=async_method, n_batches=25)
+        # evaluate progressive vs non-progressive performance
         eval(X.loc[test_idx], y.loc[test_idx], X_np.loc[test_idx], y_np[test_idx], lr, rf)
-
-    # evaluate progressive vs non-progressive performance
-
 
 
 # ===== FUNCTIONS FOR TRAINING AND TESTING MODELS =====
@@ -239,8 +237,22 @@ def eval(X, y, X_np, y_np, lr, rf):
     pred_df = pd.DataFrame(predictions, columns=names)
     pred_df['batch'] = batches
     pred_df['actual'] = y.values
+    pred_df['lr_error'] = np.abs(pred_df.actual - pred_df.lr_np)
+    pred_df['rf_error'] = np.abs(pred_df.actual - pred_df.rf_np)
     pred_df_sum = pred_df.groupby('batch').sum()
-    print(pred_df_sum)
+
+    print('Progressive:')
+    print('Script LR Average Absolute Error %.4f' %(np.mean(np.abs(pred_df.actual - pred_df.lr_p))))
+    print('Script RF Average Absolute Error %.4f' %(np.mean(np.abs(pred_df.actual - pred_df.rf_p))))
+    print('Batch LR Average Absolute Error %.4f' %(np.mean(np.abs(pred_df_sum.actual - pred_df_sum.lr_p))))
+    print('Batch RF Average Absolute Error %.4f' %(np.mean(np.abs(pred_df_sum.actual - pred_df_sum.rf_p))))
+    
+    print('Non-Progressive:')
+    print('Script LR Average Absolute Error %.4f' %(np.mean(pred_df.lr_error)))
+    print('Script RF Average Absolute Error %.4f' %(np.mean(pred_df.rf_error)))
+    print('Batch LR Average Absolute Error %.4f' %(np.mean(pred_df_sum.lr_error)))
+    print('Batch RF Average Absolute Error %.4f' %(np.mean(pred_df_sum.rf_error)))
+    # print(pred_df_sum)
 
     # plot
     plot_p_np_predictions(pred_df, pred_df_sum)
@@ -249,8 +261,8 @@ def eval(X, y, X_np, y_np, lr, rf):
 def plot_p_np_predictions(pred_df, pred_df_sum):
     # overlay histograms of errors (batch)
     plt.figure()
-    plt.hist(np.abs(pred_df_sum.actual - pred_df_sum.lr_np), alpha=0.5, label='Linear Regression')
-    plt.hist(np.abs(pred_df_sum.actual - pred_df_sum.rf_np), alpha=0.5, label='Random Forest')
+    plt.hist(pred_df_sum.lr_error, alpha=0.5, label='Linear Regression')
+    plt.hist(pred_df_sum.rf_error, alpha=0.5, label='Random Forest')
     plt.legend()    
     plt.title("Histogram of Non-progressive Absolute Errors (Batched)")
     plt.xlabel('Absolute Error (s)')
@@ -259,9 +271,10 @@ def plot_p_np_predictions(pred_df, pred_df_sum):
 
     # line plot
     plt.figure()
-    plt.plot(pred_df_sum.lr_np)
-    plt.plot(pred_df_sum.rf_np)
-    plt.plot(pred_df_sum.actual)
+    plt.plot(pred_df_sum.lr_np, label='Linear Regression')
+    plt.plot(pred_df_sum.rf_np, label='Random Forest')
+    plt.plot(pred_df_sum.actual, label='Actual Runtime')
+    plt.legend()
     plt.title("Non-progressive Predictions (Batched)")
     plt.xlabel('Batch')
     plt.ylabel('Runtime (s)')
@@ -269,8 +282,8 @@ def plot_p_np_predictions(pred_df, pred_df_sum):
 
     # overlay histograms of errors (individual)
     plt.figure()
-    plt.hist(np.abs(pred_df.actual - pred_df.lr_np), alpha=0.5, label='Linear Regression')
-    plt.hist(np.abs(pred_df.actual - pred_df.rf_np), alpha=0.5, label='Random Forest')
+    plt.hist(pred_df.lr_error, alpha=0.5, label='Linear Regression')
+    plt.hist(pred_df.rf_error, alpha=0.5, label='Random Forest')
     plt.legend()    
     plt.title("Histogram of Non-progressive Absolute Errors (Per-script)")
     plt.xlabel('Absolute Error (s)')
@@ -279,9 +292,10 @@ def plot_p_np_predictions(pred_df, pred_df_sum):
 
     # line plot
     plt.figure()
-    plt.plot(pred_df.lr_np)
-    plt.plot(pred_df.rf_np)
-    plt.plot(pred_df.actual)
+    plt.plot(pred_df.lr_np, label='Linear Regression')
+    plt.plot(pred_df.rf_np, label='Random Forest')
+    plt.plot(pred_df.actual, label='Actual Runtime')
+    plt.legend()
     plt.title("Non-progressive Predictions (Per-script)")
     plt.xlabel('Batch')
     plt.ylabel('Runtime (s)')
