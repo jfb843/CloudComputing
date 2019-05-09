@@ -252,25 +252,41 @@ def plot_p_np_predictions(pred_df, pred_df_sum):
     plt.hist(np.abs(pred_df_sum.actual - pred_df_sum.lr_np), alpha=0.5, label='Linear Regression')
     plt.hist(np.abs(pred_df_sum.actual - pred_df_sum.rf_np), alpha=0.5, label='Random Forest')
     plt.legend()    
-    plt.title("Non-progressive Histogram of Absolute Errors (Batched)")
+    plt.title("Histogram of Non-progressive Absolute Errors (Batched)")
     plt.xlabel('Absolute Error (s)')
     plt.ylabel('Counts')
     plt.savefig('np_batch_error_hist.png')
+
+    # line plot
+    plt.figure()
+    plt.plot(pred_df_sum.lr_np)
+    plt.plot(pred_df_sum.rf_np)
+    plt.plot(pred_df_sum.actual)
+    plt.title("Non-progressive Predictions (Batched)")
+    plt.xlabel('Batch')
+    plt.ylabel('Runtime (s)')
+    plt.savefig('np_batch_error.png')
 
     # overlay histograms of errors (individual)
     plt.figure()
     plt.hist(np.abs(pred_df.actual - pred_df.lr_np), alpha=0.5, label='Linear Regression')
     plt.hist(np.abs(pred_df.actual - pred_df.rf_np), alpha=0.5, label='Random Forest')
     plt.legend()    
-    plt.title("Non-progressive Histogram of Absolute Errors (Per-script)")
+    plt.title("Histogram of Non-progressive Absolute Errors (Per-script)")
     plt.xlabel('Absolute Error (s)')
     plt.ylabel('Counts')
     plt.savefig('np_script_error_hist.png')
 
+    # line plot
+    plt.figure()
+    plt.plot(pred_df.lr_np)
+    plt.plot(pred_df.rf_np)
+    plt.plot(pred_df.actual)
+    plt.title("Non-progressive Predictions (Per-script)")
+    plt.xlabel('Batch')
+    plt.ylabel('Runtime (s)')
+    plt.savefig('np_script_error.png')
 
-
-def roc():
-    pass
 
 
 if __name__ == '__main__':
