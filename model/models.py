@@ -152,7 +152,7 @@ def plot(train_size, train_perc_error, test_size, test_perc_error, model_name):
 
     plt.suptitle(model_name + ' Percent Error for Varying File Sizes')
     plot_name = model_name.split()
-    plt.savefig(plot_name[0][0] + plot_name[1][0] + '.png')
+    plt.savefig(plot_name[0][0] + plot_name[1][0] + '.png', dpi=300)
 
 
 def hist_plot(train_error, test_error, model_name):
@@ -171,7 +171,7 @@ def hist_plot(train_error, test_error, model_name):
 
     plt.suptitle(model_name + ' Histogram of Absolute Errors')
     plot_name = model_name.split()
-    plt.savefig(plot_name[0][0] + plot_name[1][0] + '_hist.png')
+    plt.savefig(plot_name[0][0] + plot_name[1][0] + '_hist.png', dpi=300)
 
 
 def print_accuracies(ids, perc_error):
@@ -267,20 +267,20 @@ def plot_p_np_predictions(pred_df, pred_df_sum):
     plt.hist(pred_df_sum.lr_p_error, alpha=0.5, label='Linear Regression')
     plt.hist(pred_df_sum.rf_p_error, alpha=0.5, label='Random Forest')
     plt.legend()    
-    plt.title("Histogram of Progressive Absolute Errors (Batched)")
+    plt.title("Histogram of Progressive Absolute Errors (Per-Job)")
     plt.xlabel('Absolute Error (s)')
     plt.ylabel('Counts')
-    plt.savefig('p_batch_error_hist.png')
+    plt.savefig('p_batch_error_hist.png', dpi=300)
 
     # NP: overlay histograms of errors (batch)
     plt.figure()
     plt.hist(pred_df_sum.lr_np_error, alpha=0.5, label='Linear Regression')
     plt.hist(pred_df_sum.rf_np_error, alpha=0.5, label='Random Forest')
     plt.legend()    
-    plt.title("Histogram of Non-progressive Absolute Errors (Batched)")
+    plt.title("Histogram of Non-progressive Absolute Errors (Per-Job)")
     plt.xlabel('Absolute Error (s)')
     plt.ylabel('Counts')
-    plt.savefig('np_batch_error_hist.png')
+    plt.savefig('np_batch_error_hist.png', dpi=300)
 
     # line plot
     plt.figure()
@@ -288,30 +288,30 @@ def plot_p_np_predictions(pred_df, pred_df_sum):
     plt.plot(pred_df_sum.rf_np, label='Random Forest')
     plt.plot(pred_df_sum.actual, label='Actual Runtime')
     plt.legend()
-    plt.title("Non-progressive Predictions (Batched)")
+    plt.title("Non-progressive Predictions (Per-Job)")
     plt.xlabel('Batch')
     plt.ylabel('Runtime (s)')
-    plt.savefig('np_batch_error.png')
+    plt.savefig('np_batch_error.png', dpi=300)
 
     # Progressive overlay histograms of errors (individual)
     plt.figure()
     plt.hist(pred_df.lr_p_error, alpha=0.5, label='Linear Regression')
     plt.hist(pred_df.rf_p_error, alpha=0.5, label='Random Forest')
     plt.legend()    
-    plt.title("Histogram of Progressive Absolute Errors (Per-script)")
+    plt.title("Histogram of Progressive Absolute Errors (Per-Script)")
     plt.xlabel('Absolute Error (s)')
     plt.ylabel('Counts')
-    plt.savefig('p_script_error_hist.png')
+    plt.savefig('p_script_error_hist.png', dpi=300)
 
     # NP: overlay histograms of errors (individual)
     plt.figure()
     plt.hist(pred_df.lr_np_error, alpha=0.5, label='Linear Regression')
     plt.hist(pred_df.rf_np_error, alpha=0.5, label='Random Forest')
     plt.legend()    
-    plt.title("Histogram of Non-progressive Absolute Errors (Per-script)")
+    plt.title("Histogram of Non-progressive Absolute Errors (Per-Script)")
     plt.xlabel('Absolute Error (s)')
     plt.ylabel('Counts')
-    plt.savefig('np_script_error_hist.png')
+    plt.savefig('np_script_error_hist.png', dpi=300)
 
     # line plot
     plt.figure()
@@ -319,10 +319,10 @@ def plot_p_np_predictions(pred_df, pred_df_sum):
     plt.plot(pred_df.rf_np, label='Random Forest')
     plt.plot(pred_df.actual, label='Actual Runtime')
     plt.legend()
-    plt.title("Non-progressive Predictions (Per-script)")
+    plt.title("Non-progressive Predictions (Per-Script)")
     plt.xlabel('Batch')
     plt.ylabel('Runtime (s)')
-    plt.savefig('np_script_error.png')
+    plt.savefig('np_script_error.png', dpi=300)
 
 
 
