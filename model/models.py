@@ -237,21 +237,24 @@ def eval(X, y, X_np, y_np, lr, rf):
     pred_df = pd.DataFrame(predictions, columns=names)
     pred_df['batch'] = batches
     pred_df['actual'] = y.values
-    pred_df['lr_error'] = np.abs(pred_df.actual - pred_df.lr_np)
-    pred_df['rf_error'] = np.abs(pred_df.actual - pred_df.rf_np)
+    pred_df['lr_p_error'] = np.abs(pred_df.actual - pred_df.lr_p)
+    pred_df['rf_p_error'] = np.abs(pred_df.actual - pred_df.rf_p)
+    pred_df['lr_np_error'] = np.abs(pred_df.actual - pred_df.lr_np)
+    pred_df['rf_np_error'] = np.abs(pred_df.actual - pred_df.rf_np)
+
     pred_df_sum = pred_df.groupby('batch').sum()
 
     print('Progressive:')
-    print('Script LR Average Absolute Error %.4f' %(np.mean(np.abs(pred_df.actual - pred_df.lr_p))))
-    print('Script RF Average Absolute Error %.4f' %(np.mean(np.abs(pred_df.actual - pred_df.rf_p))))
-    print('Batch LR Average Absolute Error %.4f' %(np.mean(np.abs(pred_df_sum.actual - pred_df_sum.lr_p))))
-    print('Batch RF Average Absolute Error %.4f' %(np.mean(np.abs(pred_df_sum.actual - pred_df_sum.rf_p))))
+    print('Script LR Average Absolute Error %.4f' %(np.mean(pred_df.lr_p_error)))
+    print('Script RF Average Absolute Error %.4f' %(np.mean(pred_df.rf_p_error)))
+    print('Batch LR Average Absolute Error %.4f' %(np.mean(pred_df_sum.lr_p_error)))
+    print('Batch RF Average Absolute Error %.4f' %(np.mean(pred_df_sum.rf_p_error)))
     
     print('Non-Progressive:')
-    print('Script LR Average Absolute Error %.4f' %(np.mean(pred_df.lr_error)))
-    print('Script RF Average Absolute Error %.4f' %(np.mean(pred_df.rf_error)))
-    print('Batch LR Average Absolute Error %.4f' %(np.mean(pred_df_sum.lr_error)))
-    print('Batch RF Average Absolute Error %.4f' %(np.mean(pred_df_sum.rf_error)))
+    print('Script LR Average Absolute Error %.4f' %(np.mean(pred_df.lr_np_error)))
+    print('Script RF Average Absolute Error %.4f' %(np.mean(pred_df.rf_np_error)))
+    print('Batch LR Average Absolute Error %.4f' %(np.mean(pred_df_sum.lr_np_error)))
+    print('Batch RF Average Absolute Error %.4f' %(np.mean(pred_df_sum.rf_np_error)))
     # print(pred_df_sum)
 
     # plot
@@ -259,10 +262,20 @@ def eval(X, y, X_np, y_np, lr, rf):
     
 
 def plot_p_np_predictions(pred_df, pred_df_sum):
-    # overlay histograms of errors (batch)
+    # Progressive: overlay histograms of errors (batch)
     plt.figure()
-    plt.hist(pred_df_sum.lr_error, alpha=0.5, label='Linear Regression')
-    plt.hist(pred_df_sum.rf_error, alpha=0.5, label='Random Forest')
+    plt.hist(pred_df_sum.lr_p_error, alpha=0.5, label='Linear Regression')
+    plt.hist(pred_df_sum.rf_p_error, alpha=0.5, label='Random Forest')
+    plt.legend()    
+    plt.title("Histogram of Progressive Absolute Errors (Batched)")
+    plt.xlabel('Absolute Error (s)')
+    plt.ylabel('Counts')
+    plt.savefig('p_batch_error_hist.png')
+
+    # NP: overlay histograms of errors (batch)
+    plt.figure()
+    plt.hist(pred_df_sum.lr_np_error, alpha=0.5, label='Linear Regression')
+    plt.hist(pred_df_sum.rf_np_error, alpha=0.5, label='Random Forest')
     plt.legend()    
     plt.title("Histogram of Non-progressive Absolute Errors (Batched)")
     plt.xlabel('Absolute Error (s)')
@@ -280,10 +293,20 @@ def plot_p_np_predictions(pred_df, pred_df_sum):
     plt.ylabel('Runtime (s)')
     plt.savefig('np_batch_error.png')
 
-    # overlay histograms of errors (individual)
+    # Progressive overlay histograms of errors (individual)
     plt.figure()
-    plt.hist(pred_df.lr_error, alpha=0.5, label='Linear Regression')
-    plt.hist(pred_df.rf_error, alpha=0.5, label='Random Forest')
+    plt.hist(pred_df.lr_p_error, alpha=0.5, label='Linear Regression')
+    plt.hist(pred_df.rf_p_error, alpha=0.5, label='Random Forest')
+    plt.legend()    
+    plt.title("Histogram of Progressive Absolute Errors (Per-script)")
+    plt.xlabel('Absolute Error (s)')
+    plt.ylabel('Counts')
+    plt.savefig('p_script_error_hist.png')
+
+    # NP: overlay histograms of errors (individual)
+    plt.figure()
+    plt.hist(pred_df.lr_np_error, alpha=0.5, label='Linear Regression')
+    plt.hist(pred_df.rf_np_error, alpha=0.5, label='Random Forest')
     plt.legend()    
     plt.title("Histogram of Non-progressive Absolute Errors (Per-script)")
     plt.xlabel('Absolute Error (s)')
